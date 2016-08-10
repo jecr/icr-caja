@@ -1,0 +1,924 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cla",
+				"clasificados	statement"
+			],
+			[
+				"clas",
+				"clasfdUsr	statement"
+			],
+			[
+				"fo",
+				"fOpenA	statement"
+			],
+			[
+				"su",
+				"subsubitem	forstmt"
+			],
+			[
+				"lin",
+				"links	statement"
+			],
+			[
+				"ada",
+				"adjacencyListTotal	statement"
+			],
+			[
+				"nod",
+				"nodes	statement"
+			],
+			[
+				"node",
+				"nodeSample	statement"
+			],
+			[
+				"clasif",
+				"clasifExport	statement"
+			],
+			[
+				"ex",
+				"exportThis	statement"
+			],
+			[
+				"arch",
+				"archivoRuta	statement"
+			],
+			[
+				"pr",
+				"preNodes	statement"
+			],
+			[
+				"li",
+				"links	statement"
+			],
+			[
+				"clasi",
+				"clasifSalida	statement"
+			],
+			[
+				"str",
+				"strip	function"
+			],
+			[
+				"UNO",
+				"UNO_tuitId"
+			],
+			[
+				"sea",
+				"search_query"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"prob",
+				"prob_dist	statement"
+			],
+			[
+				"pol",
+				"polNormalizados	statement"
+			],
+			[
+				"ciud",
+				"ciudadJson	statement"
+			],
+			[
+				"inpu",
+				"inputFile	statement"
+			],
+			[
+				"usu",
+				"usuariosFileRoute	statement"
+			],
+			[
+				"base",
+				"baseFileName	statement"
+			],
+			[
+				"sub",
+				"subTweet	forstmt"
+			],
+			[
+				"twe",
+				"tweet	statement"
+			],
+			[
+				"id",
+				"idUsuario	statement"
+			],
+			[
+				"cl",
+				"clsfdUsrD	statement"
+			],
+			[
+				"user",
+				"usersFile	statement"
+			],
+			[
+				"pun",
+				"puntajeP	statement"
+			],
+			[
+				"dic",
+				"dictClasificados	statement"
+			],
+			[
+				"punt",
+				"puntajeP	statement"
+			],
+			[
+				"lista",
+				"listaUsuarios	statement"
+			],
+			[
+				"json",
+				"jsonPoliticos	statement"
+			],
+			[
+				"pala",
+				"palabrasTotales	statement"
+			],
+			[
+				"dicc",
+				"diccionarioPorcentajes	statement"
+			],
+			[
+				"pa",
+				"palabrasCuenta	statement"
+			],
+			[
+				"no",
+				"normalizados	statement"
+			],
+			[
+				"ar",
+				"archivoRuta	statement"
+			],
+			[
+				"get",
+				"getPercenteage	function"
+			],
+			[
+				"key",
+				"Key"
+			],
+			[
+				"lis",
+				"listaPorcentajes	statement"
+			],
+			[
+				"por",
+				"porcentajePalabra	statement"
+			],
+			[
+				"ya",
+				"yaRecuperados	statement"
+			],
+			[
+				"des",
+				"descripcion	statement"
+			],
+			[
+				"list",
+				"list_members	function"
+			],
+			[
+				"search",
+				"search_query	statement"
+			],
+			[
+				"curr",
+				"currentFile"
+			],
+			[
+				"curren",
+				"currentFile	statement"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"current",
+				"currentDate"
+			],
+			[
+				"cur",
+				"currentDate	statement"
+			],
+			[
+				"path",
+				"pathLength"
+			],
+			[
+				"pat",
+				"pathLength"
+			],
+			[
+				"diff",
+				"diffX"
+			],
+			[
+				"var",
+				"variableTemporal"
+			],
+			[
+				"ech",
+				"echo	echo \"…\""
+			],
+			[
+				"ec",
+				"echo	echo \"…\""
+			],
+			[
+				"data",
+				"dataLead"
+			],
+			[
+				"el",
+				"elVideo"
+			],
+			[
+				"data-",
+				"data-delay"
+			],
+			[
+				"bann",
+				"banner_temps"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"slide",
+				"slider0"
+			],
+			[
+				"pos",
+				"post_slug"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"J",
+				"jQuery"
+			],
+			[
+				"slid",
+				"slider_home"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"ac",
+				"actual_page"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"u",
+				"url_foto"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"img",
+				"img_size1"
+			],
+			[
+				"sli",
+				"slider_home"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"email",
+				"email_body"
+			],
+			[
+				"err",
+				"errorString"
+			],
+			[
+				"alph",
+				"alpha_numeric"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"date",
+				"date_format"
+			],
+			[
+				"sl",
+				"slideToggle"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
+				"cont",
+				"cont_preg"
+			],
+			[
+				"resul",
+				"resultados"
+			],
+			[
+				"pregun",
+				"preguntas"
+			],
+			[
+				"mysql_fiel",
+				"mysql_field_name"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"bore",
+				"border-box"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"RE",
+				"RenaultLifeB"
+			],
+			[
+				"RFE",
+				"RenaultLifeL"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"fuen",
+				"fuente2"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca"
+	],
+	"file_history":
+	[
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/FechasAnalisis_long.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_Jun272016_filtro_preprocesado.json",
+		"/C/Users/Jorge/Desktop/oaxaca_jun27-usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_Jun262016_filtro_preprocesado.json",
+		"/C/Users/Jorge/Desktop/oaxaca_jun26-usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_Jun252016_filtro_preprocesado.json",
+		"/C/Users/Jorge/Desktop/oaxaca_jun25-usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_Jun212016_filtro_preprocesado.json",
+		"/C/Users/Jorge/Desktop/oaxaca_jun21-usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_Jun202016_filtro_preprocesado.json",
+		"/C/Users/Jorge/Desktop/oaxaca_jun20-usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_Jun192016_filtro_preprocesado.json",
+		"/C/Users/Jorge/Desktop/oaxaca_jun19-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_Jun192016-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_Jun252016-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_Jun262016-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_Jun272016-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_Jun202016-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_Jun212016-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_19-21_clasificados.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_25-27_clasificados.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/preprocesa.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Gephi/oaxaca_25-27_clasificados.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/LISTAS/lugaresMX.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/19-21_recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_19-21_clasificados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_25-27_usuarios.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_19-21_usuarios.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/oaxaca_Jun262016-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/oaxaca_Jun252016-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/oaxaca_Jun212016-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/oaxaca_Jun202016-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/oaxaca_Jun272016-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/oaxaca_Jun192016-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/convert_to_gephi.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/index_MEDIOS.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/prueba_filtro.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/convert_to_gephi.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/convert_to_gephi[Conflict].py",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/js/preprocesa.py",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/recover.py",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/clasifica_naive.py",
+		"/C/Users/Jorge/Desktop/labeled.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/hnc_usuarios/hoy_no_circula_bots-usuarios-recuperados.json",
+		"/C/Users/Jorge/Desktop/ACMComputingClassificationSystemSKOSTaxonomy.xml",
+		"/C/Users/Jorge/Desktop/clasificacion.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Preprocesado/oaxaca_19-21_export.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_19-21_export.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/Periodos/stats.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/Periodos/oaxaca_25-27_usuarios.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/Periodos/oaxaca_25-27_usuarios (2).json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Oaxaca/oaxaca_25-27.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/js/graphCode 6.js",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_25-27_export.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_Jun252016_filtro.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_Jun252016_filtro_export.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_25-27.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/oaxaca_25-27_usuarios_export.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/js/log",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_25-27_usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/HoyNoCircula/hoy_no_circula_Apr302016_filtro_export.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/js/_export.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_25-27_usuarios_export.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/HoyNoCircula/hoy_no_circula_Apr302016_filtro.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/oaxaca_19-21_usuarios_export.json",
+		"/C/Users/Jorge/Desktop/clas/oaxaca_Jun192016_clas.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/25-27_03-recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/25-27_01-recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/25-27_02-recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/25-27_recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/19-21_01-recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/19-21_02-recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/19-21_04-recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/19-21_03-recuperados.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/19-21_04.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/archivos_oaxaca/19-21_03.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/25-27_01.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/25-27_02.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/25-27_03.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_25-27.json-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_19-21.json-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/19-21_01.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/19-21_02.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/19-21_03.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/19-21_04.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_25-27.json-usuarios.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_19-21.json-gephi.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/convert_to_gephi.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/stats.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_Jun252016_filtro.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_Jun262016_filtro.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_Jun272016_filtro.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_25-27.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_Jun202016_filtro.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_Jun192016_filtro.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_Jun212016_filtro.json",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/evento_oaxaca/oaxaca_19-21.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/_deprecated/frecuencia.py",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/d3/data/HoyNoCircula/oaxaca_Jun212016_filtro.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/_deprecated/clasifica.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/HoyNoCircula/convert_to_gephi.py",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/recupera.py",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jul062016.txt",
+		"/C/Users/Jorge/Desktop/filtro/oaxaca_Jun192016_filtro.json",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/_deprecated/recover.py",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/una_prueba/query.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun292016-conversations.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun292016.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun282016-conversations.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun272016-conversations.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun272016.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun252016-conversations.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun262016-conversations.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun262016.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun242016-conversations.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/log",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/HoyNoCircula/GEPHI/bots/hoy_no_circula_bots-usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/util/politicos-historico.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/util/medios-historico.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/util/politicos-historico_rev.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/HoyNoCircula/GEPHI/bots/hoy_no_circula_bots-gephi.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/hnc_usuarios/hoy_no_circula_bots-usuarios.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun242016.txt",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun232016-conversations.txt",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/fechasAnalisis_long_bots.json-gephi.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/conversation.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/HoyNoCircula/GEPHI/bots/hoy_no_circula_31-02-gephi.csv",
+		"/C/Users/Jorge/Dropbox/Temas selectos III/Tweepy/CAJAbot/oaxaca/oaxaca_Jun222016-conversations.txt"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"<open files>",
+			"",
+			"C:\\Users\\Jorge\\Dropbox\\Temas selectos III\\Tweepy\\CAJAbot",
+			"C:\\Users\\Jorge\\Google Drive\\MADIC\\Tesis\\Eventos\\HoyNoCircula\\clasif",
+			"C:\\Users\\Jorge\\Google Drive\\MADIC\\Tesis\\Eventos\\HoyNoCircula\\filtro",
+			"C:\\Users\\Jorge\\Google Drive\\MADIC\\Tesis\\Eventos\\HoyNoCircula\\clasif",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
+			"<current file>",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\prod",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tu te paras en una esquina para prostituirte",
+			"mi uber",
+			"\"name\": \"",
+			"\", ",
+			"\"name\":",
+			"\"name\": ",
+			"\"name\":",
+			"\\",
+			",undefined",
+			"sys",
+			"location",
+			"\"category\"",
+			"\"from_user\": ",
+			"\"source\":",
+			"\"from_user\":",
+			"\"source\":",
+			"{'inDegree':",
+			"'Error'",
+			"error",
+			"hummer2012",
+			"error",
+			"{'inDegree':",
+			"\"from_user\":",
+			" \"source\":",
+			"{'source':",
+			"cuernavaca",
+			"'name'",
+			"{'index':",
+			"name': ",
+			"'name':",
+			"{'index':",
+			"'name':",
+			"graphCode 6.js:124 ",
+			"{'index'",
+			"': [",
+			"anita",
+			"anitalomeli",
+			"metros_cubicos",
+			"arnemx",
+			"amayaperalta",
+			"tonycatano84",
+			"arnemx",
+			"name': ",
+			"graphCode 6.js:245",
+			"serc",
+			"___serch___",
+			"claulares5",
+			"___serch___",
+			"name':",
+			"index':",
+			"21",
+			"nodeSample",
+			"NodeSample",
+			"});",
+			"nodes",
+			",",
+			"topNodes",
+			"nodeSample",
+			"cuernavacagob",
+			"cuer",
+			"\"category\":",
+			"sys.",
+			",undefined",
+			",",
+			",mention",
+			",reply",
+			",retweet",
+			"retuiteado",
+			"katkokukortez",
+			"cuernavacagob",
+			"['cuernavacagob']",
+			"cuernavacagob",
+			"cuernavaca",
+			"cuernavacagob",
+			",",
+			"cuernava",
+			",",
+			"'index'",
+			",",
+			"sort(",
+			",",
+			"nodes",
+			"ramonacarrill14,cuernavacagob",
+			"cuernavacagob",
+			")",
+			"(",
+			"cuernavacagob",
+			",",
+			"miguelocaibanez",
+			":",
+			",",
+			"cuernavaca",
+			",",
+			"links",
+			"{'index'",
+			"'index'",
+			"'index':",
+			"sort(",
+			"print",
+			"find(",
+			"745091177255342080",
+			"{'index",
+			"getPercenteage",
+			"sort",
+			",",
+			"CarlosCha",
+			"carloscha",
+			"CarlosChaviraTV",
+			",",
+			".lower()",
+			"index",
+			",",
+			"index",
+			",",
+			"blogciu",
+			"set(",
+			"CarGoliath",
+			"interaction': 'mention'",
+			"{'source':",
+			"interaction': 'mention',",
+			"\"from_user\":",
+			"'reply'",
+			"'mention'",
+			"mention",
+			"retweet",
+			"{'source':",
+			"inks.append(actual)",
+			"retuits"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"&Uacute;",
+			"&Oacute;",
+			"&Iacute;",
+			"&Eacute;",
+			"&Aacute;",
+			"&uacute;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"$RenaultLifeCyL",
+			"$RenaultLifeCyR",
+			"$RenaultLifeR",
+			"$icons"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tesis-caja.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
