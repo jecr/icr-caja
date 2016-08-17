@@ -30,10 +30,11 @@ dictUsuarios = {}
 temporalTuitsContainer = []
 
 
-def extraMentions(elOtroTuit):
+def extraMentions(elOtroTuit,dequien,respuestapara):
     for mencion in elOtroTuit['user_mentions']:
-        cadena = tuit['from_user'].lower() + ',' + mencion.lower() + ',mention'
-        temporalTuitsContainer.append(cadena)
+        if dequien != mencion.lower() and respuestapara != mencion.lower():
+            cadena = elOtroTuit['from_user'].lower() + ',' + mencion.lower() + ',mention'
+            temporalTuitsContainer.append(cadena)
 
 # Recorrido de los datos
 for tuit in contenedorJsonTuits:
@@ -44,26 +45,29 @@ for tuit in contenedorJsonTuits:
         retuiteado = tuit['text'].split()
         retuiteado = retuiteado[1].replace('@', '').replace(':', '')
         retuiteado = retuiteado.lower()
-        cadena = tuit['from_user'].lower() + ',' + retuiteado + ',retweet'
-        temporalTuitsContainer.append(cadena)
+        retuiteador = tuit['from_user'].lower()
+        if retuiteador != retuiteado:
+            cadena =  retuiteador + ',' + retuiteado + ',retweet'
+            temporalTuitsContainer.append(cadena)
         # Aquí incluía a los usuarios mencionados en un tweet retuiteado, ya no, nunca, nevermore
         # createList(tuit)
         # del tuit['user_mentions'][0]
         # extraMentions(tuit)
 
     # Si hay reply, es reply
-    if tuit['in_reply_to_status_id_str'] != 'None':
+    if tuit['in_reply_to_status_id_str'] != 'None' and tuit['in_reply_to_screen_name'].lower() != tuit['from_user'].lower():
         rpl += 1
         cadena = tuit['from_user'].lower() + ',' + tuit['in_reply_to_screen_name'].lower() + ',reply'
         temporalTuitsContainer.append(cadena)
-        extraMentions(tuit)
+        extraMentions(tuit,tuit['from_user'].lower(),tuit['in_reply_to_screen_name'].lower())
 
     # Si no hay reply && no hay RT @ && user mentions es mayor a 0, es mención
     if tuit['in_reply_to_status_id_str'] == 'None' and tuit['text'].find('RT @') == -1 and len(tuit['user_mentions']) > 0:
         mnc += 1
         for mencion in tuit['user_mentions']:
-            cadena = tuit['from_user'].lower() + ',' + mencion.lower() + ',mention'
-            temporalTuitsContainer.append(cadena)
+            if tuit['from_user'].lower() != mencion.lower():
+                cadena = tuit['from_user'].lower() + ',' + mencion.lower() + ',mention'
+                temporalTuitsContainer.append(cadena)
 
 # Elimino self-loops
 selfies = 0

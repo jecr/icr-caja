@@ -142,7 +142,7 @@ print('Texto normalizado.')
 
 clasificaEsto = textNormalization(porClasificar)
 
-print clasificaEsto
+# print clasificaEsto
 
 fPolH = open('util/politicos-historico.txt', 'r')
 historicos = {}
@@ -187,6 +187,6 @@ for item in clasifSalida:
 
 # Escritura del archivo al terminar la ejecución
 archivoRuta = sys.argv[2].split('.')
-archivoRuta = archivoRuta[0] + '_export.json'
+archivoRuta = archivoRuta[0] + '_clasifsalida.json'
 with open(archivoRuta, 'w') as f:
     json.dump(clasifExport, f, indent=4, ensure_ascii=False)

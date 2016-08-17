@@ -2,6 +2,9 @@
 import json
 import sys
 
+# Arg1 = Lista de publicaciones
+# Arg2 = Usuarios Clasificados
+
 f = sys.argv[1]
 fOpen = open(f, 'r')
 publics = json.load(fOpen)
@@ -46,6 +49,16 @@ for item in publics:
         if actual != {}:
             links.append(actual)
             respuestas += 1
+        for mencion in item['user_mentions']:
+            subActual = {}
+            subActual['source'] = actual['source']
+            subActual['target'] = mencion.lower().encode('UTF-8')
+            subActual['interaction'] = 'reply'
+            subActual['replies'] = 1
+            if subActual['source'] != subActual['target'] and actual['target'] != subActual['target']:
+                if subActual != {}:
+                    links.append(subActual)
+                    menciones += 1
 
     # MENTIONS
     if item['in_reply_to_status_id_str'] == 'None' and item['text'].find('RT @') == -1 and len(item['user_mentions']) > 0:
