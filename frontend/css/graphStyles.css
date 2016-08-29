@@ -1,0 +1,442 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color:#14141c;
+}
+
+body {
+    overflow: hidden;
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px dotted #5c5c5c;
+}
+
+p.head {
+    color: #F2F3F4;
+    font-family: clearSans;
+    font-size:1.15em;
+    letter-spacing:1px;
+    margin-left:10px;
+}
+
+p.italic {
+    color: #F2F3F4;
+    font-family: clearSansItalic;
+    font-size:.9em;
+}
+
+p {
+    color: #F2F3F4;
+    font-family: clearSans;
+    font-size:.9em;
+}
+
+table {
+  margin-left: 10px;
+}
+
+.empty{
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+/*div {
+  display: inline-block;
+}*/
+
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+
+button {
+    cursor: pointer;
+    font-family: clearSans;
+    font-size: .9em;
+}
+
+input {
+    cursor: pointer;
+    margin: 0px;
+}
+
+input[type="text"] {
+    cursor: text;
+    width: 150px;
+}
+
+.ui-autocomplete {
+    color: white;
+    width: 100px;
+    list-style: none;
+    background-color: gray;
+    opacity: .8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ui-menu-item {
+    cursor: pointer;
+    height: 25px;
+    font-family: clearSans;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+
+label {
+    color: white;
+    font-family: clearSans;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#selectors, #selectorsNodes, #filtros, #bsc {
+    display: inline-block;
+/*            width: 100px;
+    height: 100px;*/
+}
+
+.node {
+    fill: #808993;
+    cursor: pointer;
+}
+
+.politico {
+    fill: #FF1493;
+    cursor: pointer;
+}
+
+.medio {
+    fill: #00B7EB;
+    cursor: pointer;
+}
+
+.ciudadano {
+    fill: #808993;
+    cursor: pointer;
+}
+
+.mention {
+    stroke: #2adf79;
+    /*cursor: pointer;*/
+    /*stroke-width: 2;*/
+    /*stroke-opacity:.5;*/
+    /*stroke-dasharray:7,3,2,3;*/
+}
+
+.reply {
+    stroke: #ff7426;
+    /*cursor: pointer;*/
+    /*stroke-width: 2;*/
+    /*stroke-opacity:.5;*/
+}
+
+.retweet {
+    stroke: #a05be6;
+    /*cursor: pointer;*/
+    /*stroke-width: 2;*/
+    /*stroke-opacity:.5;*/
+    /*stroke-dasharray:2,5;*/
+}
+
+@font-face {
+    font-family: clearSans;
+    src: url(../fonts/ClearSans-Regular.woff);
+}
+
+@font-face {
+    font-family: clearSansItalic;
+    src: url(../fonts/ClearSans-Italic.woff);
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: lighter;
+    font-size: .9em;
+    font-family: clearSans;
+    letter-spacing: .06em;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+/* Creates a small triangle extender for the tooltip */
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+/* Style northward tooltips differently */
+
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}
+
+.text {
+    font-family: clearSans;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000;
+    fill: #F2F3F4;
+}
+
+.text2 {
+    font-family: clearSans;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+    fill: #14141c;
+}
+
+.label{
+    font-family: clearSans;
+    font-size: .7em;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000;
+    fill: #F2F3F4;
+}
+
+.label2{
+    font-family: clearSans;
+    font-size: .7em;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+    fill: #14141c;
+}
+
+#selectors{
+  cursor: pointer;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 53px;
+  height: 26px;
+  margin-bottom: 0px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5C5C5C;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 5px;
+  bottom: 4px;
+  background-color: #14141c;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #F2F3F4;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 28px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#estadisticas {
+  position: absolute;
+  /*width: 300px;*/
+  height: 600px;
+  margin-top: 10px;
+  padding: 20px 50px 0px 50px; 
+  font-family: clearSans;
+  font-size: .8em;
+}
+
+div label input {
+   margin-right:100px;
+   cursor: pointer;
+}
+
+#ck-button {
+    margin:0px;
+    background-color: #5C5C5C;
+    border-radius:4px;
+    overflow:auto;
+    display: inline-block;
+    cursor: default;
+    /*border: 2px solid #a05be6;*/
+}
+
+#ck-button label {
+    float:left;
+    width:80px;
+    height:20px;
+}
+
+#ck-button label span {
+    text-align:center;
+    color: #0d0d10;
+    font-size: 13px;
+    padding-top:3px;
+    padding-bottom:6px;
+    display:block;
+}
+
+#ck-button label input {
+    position:absolute;
+    display: none;
+}
+
+#ck-button #Retweets:checked + span {
+    background-color:#7844ad;
+    font-size: 13px;
+    /*color:#a05be6;*/
+    color:white;
+    text-shadow: 0 1px 0 #4c226c, 1px 0 0 #4c226c, 0 -1px 0 #4c226c, -1px 0 0 #4c226c;
+}
+
+#ck-button #Mentions:checked + span {
+    background-color:#2acd79;
+    font-size: 13px;
+    color:white;
+    text-shadow: 0 1px 0 #00341c, 1px 0 0 #00341c, 0 -1px 0 #00341c, -1px 0 0 #00341c;
+}
+
+#ck-button #Replies:checked + span {
+    background-color:#ff7426;
+    font-size: 13px;
+    color:white;
+    text-shadow: 0 1px 0 #be1e2d, 1px 0 0 #be1e2d, 0 -1px 0 #be1e2d, -1px 0 0 #be1e2d;
+}
+
+#ck2-button {
+    margin:0px;
+    background-color: #5C5C5C;
+    border-radius:4px;
+    overflow:auto;
+    display: inline-block;
+    /*border: 2px solid #a05be6;*/
+}
+
+#ck2-button label {
+    float:left;
+    width:80px;
+    height:20px;
+}
+
+#ck2-button label span {
+    text-align:center;
+    color: #0d0d10;
+    font-size: 13px;
+    padding-top:3px;
+    padding-bottom:6px;
+    display:block;
+}
+
+#ck2-button label input {
+    position:absolute;
+    display: none;
+}
+
+#ck2-button #Ciudadanos:checked + span {
+    background-color:#808993;
+    font-size: 13px;
+    /*color:#a05be6;*/
+    color:white;
+    text-shadow: 0 1px 0 #464c53, 1px 0 0 #464c53, 0 -1px 0 #464c53, -1px 0 0 #464c53;
+}
+
+#ck2-button #Politicos:checked + span {
+    background-color:#FF1493;
+    font-size: 13px;
+    color:white;
+    text-shadow: 0 1px 0 #990052, 1px 0 0 #990052, 0 -1px 0 #990052, -1px 0 0 #990052;
+}
+
+#ck2-button #Medios:checked + span {
+    background-color:#00B7EB;
+    font-size: 13px;
+    color:white;
+    text-shadow: 0 1px 0 #002833, 1px 0 0 #002833, 0 -1px 0 #002833, -1px 0 0 #002833;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    cursor: default;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
