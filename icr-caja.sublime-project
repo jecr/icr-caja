@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "_deprecated"
+		},
+		{
+			"path": "_subscripts"
+		},
+		{
+			"path": "backend"
+		},
+		{
+			"path": "demo"
+		},
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "util"
+		}
+	]
+}

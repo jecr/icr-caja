@@ -1,2 +1,4 @@
 *.pickle
 *.DS_Store
+
+frontend/data/oaxaca_Jun252016_filtro_preprocesado.json

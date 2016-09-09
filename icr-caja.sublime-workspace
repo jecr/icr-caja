@@ -1,0 +1,707 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inline"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"the",
+				"the_popup"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"el",
+				"elVideo"
+			],
+			[
+				"data-",
+				"data-delay"
+			],
+			[
+				"bann",
+				"banner_temps"
+			],
+			[
+				"curr",
+				"currSlideId"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"slide",
+				"slider0"
+			],
+			[
+				"pos",
+				"post_slug"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"J",
+				"jQuery"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"slid",
+				"slider_home"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"ac",
+				"actual_page"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"u",
+				"url_foto"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"img",
+				"img_size1"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"sli",
+				"slider_home"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bord",
+				"border-box"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"email",
+				"email_body"
+			],
+			[
+				"err",
+				"errorString"
+			],
+			[
+				"alph",
+				"alpha_numeric"
+			],
+			[
+				"con",
+				"contenido"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"date",
+				"date_format"
+			],
+			[
+				"sl",
+				"slideToggle"
+			],
+			[
+				"t",
+				"text-top"
+			],
+			[
+				"cont",
+				"cont_preg"
+			],
+			[
+				"resul",
+				"resultados"
+			],
+			[
+				"pregun",
+				"preguntas"
+			],
+			[
+				"mysql_fiel",
+				"mysql_field_name"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"bore",
+				"border-box"
+			],
+			[
+				"RE",
+				"RenaultLifeB"
+			],
+			[
+				"RFE",
+				"RenaultLifeL"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"fuen",
+				"fuente2"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/vjdarr/Downloads/robots.txt",
+		"/Users/vjdarr/Downloads/sitemap.xml",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/01_Agradecimientos",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/02_Prólogo",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/03_Introducción",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/04_Capítulo primero",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/05_Capítulo segundo",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/06_Capítulo tercero",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/07_Capítulo cuarto",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/08_Capítulo quinto",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/09_Capítulo sexto",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/10_Capítulo séptimo",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/11_Capítulo octavo",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/12_Capítulo noveno",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/13_Bibliográfía complementaria",
+		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/14_Apéndice",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/koleos.php",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/empresas.php",
+		"/C/Users/vjdar/OneDrive/Documentos/GitHub/rp-responsive/dev/javascript/actions.js",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/page-contacto.php",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/page-blog.php",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/screenshot.png",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/leadgen.php",
+		"/C/Users/vjdar/OneDrive/Documentos/GitHub/rp-responsive/rp-responsive.sublime-project",
+		"/C/Users/Jorge/Desktop/Infonavit_ Ensayo de un adminis - Victor Manuel Borras Setien/OEBPS/toc.xhtml",
+		"/C/Users/Jorge/Desktop/Infonavit_ Ensayo de un adminis - Victor Manuel Borras Setien/OEBPS/css/idGeneratedStyles.css",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/javascript/actions.js",
+		"/C/Users/Jorge/Documents/Biblioteca de calibre/Victor Manuel Borras Setien/Infonavit_ Ensayo de un administraci (20)/Infonavit_ Ensayo de un adminis - Victor Manuel Borras Setien.epub",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/web.config",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/.user.ini",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/widgets.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sidebar.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-blog.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-auto.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-legales.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_structure.scss",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_content.scss",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-agencias.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-contacto.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/js/actions.min.js",
+		"/C/Users/Jorge/Desktop/FechasAnalisis_long_bots.json",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_desktop.scss",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_tablet.scss",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-servicio.php",
+		"/C/Users/Jorge/Desktop/axtel.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-gracias.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-home.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_auto.scss",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-promociones.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-autopromo.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_header.scss",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-auto.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-servicio.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-home.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/clio.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/empresas.php",
+		"/C/Users/Jorge/Desktop/page-promesa.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-servcont.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-contacto.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/jaccard_filtering.py",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/search.py",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/filtro_lcs.py",
+		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/LCS.py",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/duster.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/clio.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/kangoo.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/fluence.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/logan.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/koleos.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sandero.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/safrane.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/twizy.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/stepway.php",
+		"/C/Users/Jorge/Google Drive/internet en mexico.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-promociones.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-autopromo.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/m_1_1_1.png",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/empresas.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/banner1.jpg",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-servcont.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-empresas.php",
+		"/C/Users/Jorge/Desktop/empresas.php",
+		"/C/Users/Jorge/Desktop/page-empresas.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-descubre.php",
+		"/C/Users/Jorge/Desktop/page-descubre.php",
+		"/C/Users/Jorge/Desktop/internet en mexico.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/MensajeAgradecimientoCitaDeServicio.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/includes/header.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gama.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gama.xml",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/versiones.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/write.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/single.php",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/filtro1.py",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Steps.txt",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-gracias.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/servicio.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/contacto.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/blog.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/single.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/index.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-blog.php",
+		"/C/Users/Jorge/AppData/Local/Temp/Temp1_clean-start-master.zip/clean-start-master/index.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sidebar.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_fonts.scss",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page.php",
+		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/promociones.php",
+		"/C/Users/Jorge/Documents/GitHub/RP/dev/prod/contacto.php",
+		"/C/Users/Jorge/Desktop/renault/page-promociones.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/fluence.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/stepway.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sandero.php",
+		"/C/Users/Jorge/Desktop/stepway.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/web.config",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/phpinfo.php",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Recuperación - TAGS/01 Uber_25May-7Jun.csv",
+		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/06 Uber_23Sep-15Oct.csv",
+		"/C/Users/Jorge/Desktop/wp-config.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
+			"<current file>",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\prod",
+			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/changefreq>",
+			"title",
+			"diseno_que_seduce",
+			"sldtxt",
+			"jpg",
+			"/exterior_y_equipamiento/equipamiento",
+			"b>",
+			"b",
+			"exterior",
+			"span",
+			"/conocelo/",
+			"1-2",
+			"/conocelo/",
+			"posts",
+			"letter",
+			"line",
+			"line-",
+			"dynamic",
+			"sidebar",
+			"contacto",
+			"modal",
+			"la_ficha",
+			"Overlay",
+			"banner_temps",
+			"menu",
+			"while",
+			"links",
+			"banner_links",
+			"bottom",
+			"slstxt",
+			"<h3>",
+			"<br><br><h3>",
+			"<h3>",
+			"<br><br><h3>",
+			"<h3>",
+			"<br><br><h3>",
+			"<h3>",
+			"<br><h3>",
+			"<h3>",
+			"<br><br>",
+			"<h3>",
+			"rines y ves",
+			"desempe",
+			"sldtxt",
+			"> div",
+			"data-slidetext=\"",
+			"slider.currSlideId",
+			"texto",
+			"slider.currSlideId",
+			"-slidetext=\"0\"",
+			"data-slidetext=\"0\"",
+			"textslides",
+			"data-slidetext=\"0\"",
+			"<div>",
+			"<h3>",
+			"<div>",
+			"<h3>",
+			"Slider",
+			"slider",
+			"data('royalSlider');",
+			").data('royalSlider');",
+			"slider =",
+			"jQuery('#slid",
+			"jQuery(\"#slid",
+			"jQuery('.slider",
+			"$",
+			":\n				loadSlide(",
+			"loadSlide",
+			"Slider",
+			"slider",
+			"slider.destroy();",
+			":\n				loadSlide(",
+			"descubre-renault",
+			".servicio-cont",
+			".menu-serv",
+			".mosaic",
+			"servicio-cont",
+			".servicio-cont",
+			"\">",
+			"value=\"",
+			"\" \"",
+			"’",
+			"‘",
+			"defaultvalue",
+			"val = ",
+			"\" \"",
+			"$",
+			"’",
+			"‘",
+			"slider_autopromo",
+			"slider_promociones",
+			"slider_home",
+			"rsdefault",
+			"<td",
+			"<td style=\"width: 5%;\"></td>\n<td style=\"width: 5%;\"></td>",
+			" style=\"width: 25%;\"",
+			"style=\"width: 25%;\"",
+			"<td style=\"width: 25%; border-bottom: 1px solid #ccc;\"></td>\n<td style=\"width: 25%; border-bottom: 1px solid #ccc;\"></td>",
+			"border-bottom: 1px solid #ccc;\"",
+			"<td",
+			"table",
+			"style=\"\"",
+			"style=\" ",
+			"td style=\"width: ",
+			"td style=\"width:",
+			"style=\"width: ",
+			"td style=\"width: 25%",
+			"<td style=\"width: 5%;\"></td>\n<td style=\"width: 5%;\"></td>",
+			"promociones",
+			"1",
+			"safe",
+			"1-",
+			", ",
+			"slider2",
+			"1",
+			".-",
+			"label*",
+			"*",
+			"</label>*",
+			"&nbsp;<span>*</span>",
+			"<span>*</span>",
+			"zona de carga",
+			"auto",
+			"</a></l",
+			"<a href=\"#\">",
+			"</a></l",
+			"<a href=\"#\">",
+			"</a></l"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&Uacute;",
+			"&Oacute;",
+			"&Iacute;",
+			"&Eacute;",
+			"&Aacute;",
+			"&uacute;",
+			"&oacute;",
+			"&iacute;",
+			"&eacute;",
+			"&aacute;",
+			"$RenaultLifeCyL",
+			"$RenaultLifeCyR",
+			"$RenaultLifeR",
+			"$icons"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "icr-caja.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

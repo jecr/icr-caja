@@ -144,12 +144,12 @@ label {
 
 @font-face {
     font-family: clearSans;
-    src: url(../fonts/ClearSans-Regular.woff);
+    src: url(fonts/ClearSans-Regular.woff);
 }
 
 @font-face {
     font-family: clearSansItalic;
-    src: url(../fonts/ClearSans-Italic.woff);
+    src: url(fonts/ClearSans-Italic.woff);
 }
 
 .d3-tip {
