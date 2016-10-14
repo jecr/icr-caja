@@ -1,0 +1,14 @@
+Proceso para la generación de la visualización de un evento:
+
+Requisitos:
+Python 2.6 ^
+Tweepy
+	Instalación en windows: easy_install tweepy
+
+1. Ejecución de recupera.py:
+	python recupera.py [términos_de_búsqueda] [nombre_de_proyecto]
+	Nota 1: Los términos de búsqueda aceptan operadores AND y OR.
+	Nota 2: Si la cadena de términos incluye espacios, es necesario agruparla entre comillas ""
+	Nota 3: Los términos agrupados mediante operadores deben estar agrupados entre comillas "", si se incluyen muchos grupos de términos, es necesario escapar las comillas ""\Ejemplo de grupo"\ OR termino"
+
+2. 
