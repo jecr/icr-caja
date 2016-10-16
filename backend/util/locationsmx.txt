@@ -1,24 +1,24 @@
-abalá
+abala
 abasolo
 abejones
 acacoyagua
 acajete
 acala
-acámbaro
+acambaro
 acambay
 acanceh
 acapetahua
 acaponeta
 acapulco
-acapulco de juárez
+acapulco de juarez
 acateno
 acatepec
 acatic
-acatlán
-acatlán de juárez
-acatlán de pérez figueroa
+acatlan
+acatlan de juarez
+acatlan de perez figueroa
 acatzingo
-acaxochitlán
+acaxochitlan
 acayucan
 acolman
 aconchi
@@ -38,20 +38,20 @@ agua prieta
 aguascalientes
 aguililla
 ahome
-ahuacatlán
+ahuacatlan
 ahuacuotzingo
 ahualulco
 ahualulco de mercado
-ahuatlán
+ahuatlan
 ahuazotepec
 ahuehuetitla
 ahumada
 ajacuba
 ajalpan
-ajuchitlán del progreso
+ajuchitlan del progreso
 akil
 alamos
-álamo temapache
+alamo temapache
 alaquines
 albino zertuche
 alcozauca de guerrero
@@ -61,93 +61,93 @@ aljojuca
 allende
 almoloya
 almoloya de alquisiras
-almoloya de juárez
-almoloya del río
-alpatláhuac
+almoloya de juarez
+almoloya del rio
+alpatlahuac
 alpoyeca
 altamira
 altamirano
 altar
 altepexi
-alto lucero de gutiérrez barrios
+alto lucero de gutierrez barrios
 altotonga
 alvarado
-álvaro obregón
+alvaro obregon
 amacueca
 amacuzac
 amanalco
-amatán
+amatan
 amatenango de la frontera
 amatenango del valle
 amatepec
-amatitán
-amatitlán
-amatlán de cañas
-amatlán de los reyes
+amatitan
+amatitlan
+amatlan de cañas
+amatlan de los reyes
 amaxac de guerrero
 amealco de bonfil
 ameca
 amecameca
-amixtlán
+amixtlan
 amozoc
-anáhuac
+anahuac
 angamacutiro
 angangueo
 angel albino corzo
-angel r. cabada
+angel r cabada
 angostura
-ánimas trujano
+animas trujano
 antiguo morelos
 apan
 apaseo el alto
 apaseo el grande
-apatzingán
+apatzingan
 apaxco
 apaxtla
 apazapan
-apetatitlán de antonio carvajal
+apetatitlan de antonio carvajal
 apizaco
 apodaca
 aporo
 apozol
 apulco
 aquila
-aquiles serdán
-aquismón
+aquiles serdan
+aquismon
 aquixtla
 aramberri
 arandas
 arcelia
-área metropolitana
+area metropolitana
 ario
 arivechi
 arizpe
 armadillo de los infante
-armería
+armeria
 arriaga
 arroyo seco
 arteaga
-ascensión
+ascension
 asientos
 astacinga
-asunción cacalotepec
-asunción cuyotepeji
-asunción ixtaltepec
-asunción nochixtlán
-asunción ocotlán
-asunción tlacolulita
+asuncion cacalotepec
+asuncion cuyotepeji
+asuncion ixtaltepec
+asuncion nochixtlan
+asuncion ocotlan
+asuncion tlacolulita
 atarjea
 atemajac de brizuela
 atempan
-atenango del río
+atenango del rio
 atenco
 atengo
 atenguillo
 atexcal
 atil
 atitalaquia
-atizapán
-atizapán de zaragoza
+atizapan
+atizapan de zaragoza
 atlacomulco
 atlahuilco
 atlamajalcingo del monte
@@ -164,14 +164,14 @@ atotonilco de tula
 atotonilco el alto
 atotonilco el grande
 atoyac
-atoyac de álvarez
+atoyac de alvarez
 atoyatempan
 atzacan
 atzala
 atzalan
-atzitzihuacán
+atzitzihuacan
 atzitzintla
-autlán de navarro
+autlan de navarro
 axapusco
 axochiapan
 axtla de terrazas
@@ -180,65 +180,65 @@ ayahualulco
 ayala
 ayapango
 ayoquezco de aldama
-ayotlán
+ayotlan
 ayotoxco de guerrero
 ayotzintepec
 ayutla
 ayutla de los libres
 azcapotzalco
-azoyú
+azoyu
 baca
-bacadéhuachi
+bacadehuachi
 bacanora
 bacerac
-bachíniva
+bachiniva
 bacoachi
-bácum
+bacum
 badiraguato
-bahía de banderas
+bahia de banderas
 baja california
 baja california norte
 baja california sur
-balancán
+balancan
 balleza
-banámichi
+banamichi
 banderilla
 batopilas
-baviácora
+baviacora
 bavispe
 bcn
 bcs
 bejucal de ocampo
 bella vista
-benemérito de las américas
-benito juárez
-benjamín hill
-berriozábal
-boca del río
+benemerito de las americas
+benito juarez
+benjamin hill
+berriozabal
+boca del rio
 bochil
 bocoyna
-bokobá
+bokoba
 bolaños
 briseñas
 buctzotz
 buenaventura
 buenavista
-buenavista de cuéllar
+buenavista de cuellar
 burgos
 bustamante
 cabo corrientes
 caborca
-cacahoatán
-cacalchén
+cacahoatan
+cacalchen
 cadereyta de montes
-cadereyta jiménez
+cadereyta jimenez
 cajeme
 calakmul
 calcahualco
 calera
-calihualá
+calihuala
 calimaya
-calkiní
+calkini
 calnali
 calotmul
 calpan
@@ -246,12 +246,12 @@ calpulalpan
 caltepec
 calvillo
 camargo
-camarón de tejeda
-camerino z. mendoza
+camaron de tejeda
+camerino z mendoza
 camocuautla
 campeche
 cananea
-canatlán
+canatlan
 candela
 candelaria
 candelaria loxicha
@@ -259,16 +259,16 @@ canelas
 cansahcab
 cantamayec
 cañada morelos
-cañadas de obregón
+cañadas de obregon
 cañitas de felipe pescador
-capulálpam de méndez
+capulalpam de mendez
 capulhuac
-carácuaro
-carbó
-cárdenas
+caracuaro
+carbo
+cardenas
 cardonal
-carichí
-carlos a. carrillo
+carichi
+carlos a carrillo
 carmen
 carrillo puerto
 casas
@@ -276,17 +276,17 @@ casas grandes
 casimiro castillo
 castaños
 castillo de teayo
-catazajá
+catazaja
 catemaco
 catorce
 caxhuacan
 cazones de herrera
-cd juárez chihuahua
+cd juarez chihuahua
 cdmx
-cd. de méxico
+cd de mexico
 cedral
 celaya
-celestún
+celestun
 cenotillo
 centla
 centro
@@ -295,15 +295,15 @@ cerritos
 cerro azul
 cerro de san pedro
 chacaltianguis
-chacsinkín
+chacsinkin
 chahuites
 chalcatongo de hidalgo
 chalchicomula de sesma
-chalchihuitán
+chalchihuitan
 chalchihuites
 chalco
 chalma
-champotón
+champoton
 chamula
 chanal
 chankom
@@ -312,7 +312,7 @@ chapa de mota
 chapala
 chapantongo
 chapulco
-chapulhuacán
+chapulhuacan
 chapultenango
 chapultepec
 charapan
@@ -320,19 +320,19 @@ charcas
 charo
 chavinda
 chemax
-chenalhó
-cherán
+chenalho
+cheran
 chiapa de corzo
 chiapas 
 chiapas
-chiapas méxico
+chiapas mexico
 chiapilla
 chiautempan
 chiautla
 chiautzingo
-chichimilá
+chichimila
 chichiquila
-chicoasén
+chicoasen
 chicoloapan
 chicomuselo
 chiconamel
@@ -342,7 +342,7 @@ chiconquiaco
 chicontepec
 chicxulub pueblo
 chietla
-chigmecatitlán
+chigmecatitlan
 chignahuapan
 chignautla
 chih
@@ -351,186 +351,186 @@ chikindzonot
 chila
 chila de la sal
 chilangolandia
-chilapa de álvarez
+chilapa de alvarez
 chilchota
 chilchotla
 chilcuautla
-chilón
+chilon
 chilpancingo de los bravo
-chimalhuacán
-chimaltitán
+chimalhuacan
+chimaltitan
 china
 chinameca
 chinampa de gorostiza
 chinantla
 chinicuila
-chínipas
-chiquihuitlán de benito juárez
-chiquilistlán
-chocamán
-chocholá
+chinipas
+chiquihuitlan de benito juarez
+chiquilistlan
+chocaman
+chochola
 choix
 chontla
-chucándiro
-chumatlán
+chucandiro
+chumatlan
 chumayel
 churintzio
 churumuco
-ciénega de flores
-ciénega de zimatlán
-cihuatlán
+cienega de flores
+cienega de zimatlan
+cihuatlan
 cintalapa
-citlaltépetl
-ciudad del maíz
-ciudad de méxico méxico
-ciudad fernández
+citlaltepetl
+ciudad del maiz
+ciudad de mexico mexico
+ciudad fernandez
 ciudad ixtepec
-ciudad juárez chihuahua
+ciudad juarez chihuahua
 ciudad madero
 ciudad valles
-coacalco de berriozábal
+coacalco de berriozabal
 coacoatzintla
 coah
 coahuayana
-coahuayutla de josé maría izazaga
+coahuayutla de jose maria izazaga
 coahuila
-coahuitlán
-coalcomán de vázquez pallares
+coahuitlan
+coalcoman de vazquez pallares
 coapilla
 coatecas altas
 coatepec
 coatepec harinas
-coatlán del río
+coatlan del rio
 coatzacoalcos
 coatzingo
 coatzintla
 cochoapa el grande
-cocotitlán
+cocotitlan
 cocula
 coeneo
 coetzala
 cohetzala
 cohuecan
-coicoyán de las flores
-cojumatlán de régules
+coicoyan de las flores
+cojumatlan de regules
 colima
-colima méxico
+colima mexico
 colipa
-colón
-colotlán
+colon
+colotlan
 comala
 comalcalco
 comapa
-comitán de domínguez
-comondú
+comitan de dominguez
+comondu
 comonfort
 compostela
-concepción buenavista
-concepción de buenos aires
-concepción del oro
-concepción pápalo
+concepcion buenavista
+concepcion de buenos aires
+concepcion del oro
+concepcion papalo
 concordia
 coneto de comonfort
 conkal
 constancia del rosario
 contepec
 contla de juan cuamatzi
-copainalá
+copainala
 copala
 copalillo
 copanatoyac
-copándaro
-coquimatlán
-córdoba
+copandaro
+coquimatlan
+cordoba
 coronado
 coronango
 coroneo
 corregidora
 cortazar
-cosalá
+cosala
 cosamaloapan de carpio
-cosautlán de carvajal
+cosautlan de carvajal
 coscomatepec
-cosío
+cosio
 cosolapa
 cosoleacaque
 cosoltepec
 cotaxtla
 cotija
-coxcatlán
+coxcatlan
 coxquihui
 coyame del sotol
-coyoacán
+coyoacan
 coyomeapan
 coyotepec
-coyuca de benítez
-coyuca de catalán
+coyuca de benitez
+coyuca de catalan
 coyutla
 cozumel
 cruillas
 cuajimalpa de morelos
 cuajinicuilapa
-cualác
+cualac
 cuapiaxtla
 cuapiaxtla de madero
-cuatro ciénegas
-cuauhtémoc
+cuatro cienegas
+cuauhtemoc
 cuautempan
 cuautepec
 cuautepec de hinojosa
-cuautinchán
-cuautitlán
-cuautitlán de garcía barragán
-cuautitlán izcalli
+cuautinchan
+cuautitlan
+cuautitlan de garcia barragan
+cuautitlan izcalli
 cuautla
 cuautlancingo
 cuaxomulco
 cuayuca de andrade
 cucurpe
-cuencamé
-cuerámaro
+cuencame
+cueramaro
 cuernavaca
 cuetzala del progreso
 cuetzalan del progreso
 cuichapa
-cuilápam de guerrero
-cuitláhuac
+cuilapam de guerrero
+cuitlahuac
 cuitzeo
-culiacán
+culiacan
 cumpas
 cuncunul
-cunduacán
-cuquío
+cunduacan
+cuquio
 cusihuiriachi
-cutzamala de pinzón
+cutzamala de pinzon
 cuyamecalco villa de zaragoza
 cuyoaco
-cuzamá
+cuzama
 degollado
 delicias
 del nayar
 df
-d.f.
-d.f
-dgo.
-distrito federal méxico
-distrito fedreal, mexico
+df
+df
+dgo
+distrito federal mexico
+distrito fedreal mexico
 divisaderos
 doctor mora
 dolores hidalgo cuna de la independencia nacional
 domingo arenas
 donato guerra
-dr. arroyo
-dr. belisario domínguez
-dr. coss
-dr. gonzález
+dr arroyo
+dr belisario dominguez
+dr coss
+dr gonzalez
 durango
-dzán
+dzan
 dzemul
-dzidzantún
+dzidzantun
 dzilam de bravo
-dzilam gonzález
-dzitás
+dzilam gonzalez
+dzitas
 dzoncauich
 ebano
 ecatepec de morelos
@@ -547,29 +547,29 @@ el espinal
 el fuerte
 el grullo
 el higo
-el limón
+el limon
 el llano
 el mante
-el marqués
+el marques
 el naranjo
 el oro
 elota
-eloxochitlán
-eloxochitlán de flores magón
-el plateado de joaquín amaro
+eloxochitlan
+eloxochitlan de flores magon
+el plateado de joaquin amaro
 el porvenir
 el salto
 el salvador
 el tule
 emiliano zapata
 empalme
-encarnación de díaz
+encarnacion de diaz
 ensenada
-epatlán
+epatlan
 epazoyucan
 epitacio huerta
-erongarícuaro
-escárcega
+erongaricuaro
+escarcega
 escobedo
 escuinapa
 escuintla
@@ -577,18 +577,18 @@ españita
 esperanza
 espinal
 espita
-estado de méxico
-estado de méxico méxico
+estado de mexico
+estado de mexico mexico
 etchojoa
-etzatlán
+etzatlan
 ezequiel montes
 felipe carrillo puerto
 filomeno mata
 florencio villarreal
-fortín
-francisco i. madero
-francisco león
-francisco z. mena
+fortin
+francisco i madero
+francisco leon
+francisco z mena
 fresnillo
 fresnillo de trujano
 frontera
@@ -597,26 +597,26 @@ frontera hidalgo
 fronteras
 gabriel zamora
 galeana
-garcía
+garcia
 genaro codina
-general canuto a. neri
+general canuto a neri
 general cepeda
 general enrique estrada
-general felipe ángeles
-general francisco r. murguía
+general felipe angeles
+general francisco r murguia
 general heliodoro castillo
-general pánfilo natera
-general plutarco elías calles
-general simón bolívar
-gómez farías
-gómez palacio
-gonzález
-gral. bravo
-gral. escobedo
-gral. terán
-gral. treviño
-gral. zaragoza
-gral. zuazua
+general panfilo natera
+general plutarco elias calles
+general simon bolivar
+gomez farias
+gomez palacio
+gonzalez
+gral bravo
+gral escobedo
+gral teran
+gral treviño
+gral zaragoza
+gral zuazua
 granados
 gran morelos
 gro
@@ -624,56 +624,56 @@ gto
 guachinango
 guachochi
 guadalajara
-guadalajara, mxico
+guadalajara mxico
 guadalajara jalisco
-guadalcázar
+guadalcazar
 guadalupe
-guadalupe de ramírez
+guadalupe de ramirez
 guadalupe etla
 guadalupe victoria
 guadalupe y calvo
-guanaceví
+guanacevi
 guanajuato
 guasave
 guaymas
 guazapares
-guelatao de juárez
-güémez
+guelatao de juarez
+güemez
 guerrero
 guevea de humboldt
-gustavo a. madero
-gustavo díaz ordaz
-gutiérrez zamora
-halachó
-hecelchakán
+gustavo a madero
+gustavo diaz ordaz
+gutierrez zamora
+halacho
+hecelchakan
 hermenegildo galeana
 hermosillo
 heroica ciudad de ejutla de crespo
-heroica ciudad de huajuapan de león
-heroica ciudad de juchitán de zaragoza
+heroica ciudad de huajuapan de leon
+heroica ciudad de juchitan de zaragoza
 heroica ciudad de tlaxiaco
 hgo
 hidalgo
 hidalgo del parral
-hidalgotitlán
+hidalgotitlan
 higueras
-hocabá
-hoctún
-homún
+hocaba
+hoctun
+homun
 honey
-hopelchén
+hopelchen
 hostotipaquillo
 huachinera
 huajicori
 hualahuises
 huamantla
-huamuxtitlán
+huamuxtitlan
 huandacareo
-huanímaro
+huanimaro
 huaniqueo
 huanusco
 huaquechula
-huásabas
+huasabas
 huasca de ocampo
 huatabampo
 huatlatlauca
@@ -681,21 +681,21 @@ huatusco
 huauchinango
 huautepec
 huautla
-huautla de jiménez
+huautla de jimenez
 huayacocotla
 huazalingo
-huehuetán
+huehuetan
 huehuetla
-huehuetlán
-huehuetlán el chico
-huehuetlán el grande
+huehuetlan
+huehuetlan el chico
+huehuetlan el grande
 huehuetoca
-huejotitán
+huejotitan
 huejotzingo
-huejúcar
+huejucar
 huejuquilla el alto
 huejutla de reyes
-huépac
+huepac
 huetamo
 hueyapan
 hueyapan de ocampo
@@ -703,30 +703,30 @@ hueyotlipan
 hueypoxtla
 hueytamalco
 hueytlalpan
-huhí
+huhi
 huichapan
-huiloapan de cuauhtémoc
+huiloapan de cuauhtemoc
 huimanguillo
 huimilpan
 huiramba
-huitiupán
+huitiupan
 huitzilac
-huitzilan de serdán
+huitzilan de serdan
 huitziltepec
 huitzuco de los figueroa
 huixquilucan
-huixtán
+huixtan
 huixtla
-hunucmá
+hunucma
 ignacio de la llave
 ignacio zaragoza
 iguala de la independencia
 igualapa
-ilamatlán
+ilamatlan
 iliatenco
 imuris
 indaparapeo
-indé
+inde
 irapuato
 irimbo
 isidro fabela
@@ -735,22 +735,22 @@ isla mujeres
 iturbide
 ixcamilpa de guerrero
 ixcaquixtla
-ixcateopan de cuauhtémoc
+ixcateopan de cuauhtemoc
 ixcatepec
-ixhuacán de los reyes
-ixhuatán
+ixhuacan de los reyes
+ixhuatan
 ixhuatlancillo
-ixhuatlán del café
-ixhuatlán del sureste
-ixhuatlán de madero
+ixhuatlan del cafe
+ixhuatlan del sureste
+ixhuatlan de madero
 ixil
 ixmatlahuacan
 ixmiquilpan
 ixpantepec nieves
-ixtacamaxtitlán
-ixtacomitán
+ixtacamaxtitlan
+ixtacomitan
 ixtacuixtla de mariano matamoros
-ixtaczoquitlán
+ixtaczoquitlan
 ixtapa
 ixtapaluca
 ixtapan de la sal
@@ -759,16 +759,16 @@ ixtapangajoya
 ixtenco
 ixtepec
 ixtlahuaca
-ixtlahuacán
-ixtlahuacán de los membrillos
-ixtlahuacán del río
-ixtlán
-ixtlán de juárez
-ixtlán del río
+ixtlahuacan
+ixtlahuacan de los membrillos
+ixtlahuacan del rio
+ixtlan
+ixtlan de juarez
+ixtlan del rio
 izamal
 iztacalco
 iztapalapa
-izúcar de matamoros
+izucar de matamoros
 jacala de ledezma
 jacona
 jal
@@ -778,37 +778,37 @@ jalapa
 jalapa tabasco
 jalcomulco
 jalisco
-jalostotitlán
+jalostotitlan
 jalpa
-jalpa de méndez
+jalpa de mendez
 jalpan
 jalpan de serra
 jaltenco
-jáltipan
-jaltocán
+jaltipan
+jaltocan
 jamapa
 jamay
 janos
 jantetelco
 jaral del progreso
 jaumave
-jerécuaro
-jerécuaro guanajuato
+jerecuaro
+jerecuaro guanajuato
 jerez
-jesús carranza
-jesús maría
+jesus carranza
+jesus maria
 jilotepec
-jilotlán de los dolores
+jilotlan de los dolores
 jilotzingo
-jiménez
-jiménez del teul
+jimenez
+jimenez del teul
 jiquilpan
 jiquipilas
 jiquipilco
 jitotol
 jiutepec
 jocotepec
-jocotitlán
+jocotitlan
 jojutla
 jolalpan
 jonacatepec
@@ -816,35 +816,35 @@ jonotla
 jonuta
 jopala
 joquicingo
-josé azueta
-josé joaquin de herrera
-josé maría morelos
-josé sixto verduzco
-juanacatlán
+jose azueta
+jose joaquin de herrera
+jose maria morelos
+jose sixto verduzco
+juanacatlan
 juan aldama
-juan c. bonilla
+juan c bonilla
 juan galindo
-juan n. méndez
-juan r. escudero
-juan rodríguez clara
-juárez
-juárez hidalgo
+juan n mendez
+juan r escudero
+juan rodriguez clara
+juarez
+juarez hidalgo
 juchipila
 juchique de ferrer
-juchitán
+juchitan
 juchitepec
-juchitlán
+juchitlan
 julimes
 jungapeo
-kanasín
+kanasin
 kantunil
 kaua
 kinchil
-kopomá
+kopoma
 la antigua
 la barca
 la colorada
-la compañía
+la compañia
 la concordia
 la cruz
 lafragua
@@ -860,7 +860,7 @@ la magdalena contreras
 la magdalena tlaltelulco
 la magdalena tlatlauquitepec
 la manzanilla de la paz
-la misión
+la mision
 lampazos de naranjo
 landa de matamoros
 landero y coss
@@ -869,20 +869,20 @@ la pe
 la perla
 la piedad
 la reforma
-larráinzar
+larrainzar
 las choapas
 las margaritas
 las minas
 las rosas
-las vigas de ramírez
+las vigas de ramirez
 la trinidad vista hermosa
 la trinitaria
-la unión de isidoro montes de oca
+la union de isidoro montes de oca
 la yesca
-lázaro cárdenas
-león
+lazaro cardenas
+leon
 leonardo bravo
-león guanajuato
+leon guanajuato
 lerdo
 lerdo de tejada
 lerma
@@ -891,14 +891,14 @@ linares
 llera
 lolotla
 loma bonita
-lópez
+lopez
 loreto
 los aldamas
 los cabos
 los herreras
 los ramones
 los reyes
-los reyes de juárez
+los reyes de juarez
 luis moya
 luvianos
 macuspana
@@ -908,118 +908,118 @@ magdalena
 magdalena apasco
 magdalena jaltepec
 magdalena mixtepec
-magdalena ocotlán
+magdalena ocotlan
 magdalena peñasco
 magdalena teitipac
-magdalena tequisistlán
+magdalena tequisistlan
 magdalena tlacotepec
-magdalena yodocono de porfirio díaz
-magdalena zahuatlán
+magdalena yodocono de porfirio diaz
+magdalena zahuatlan
 maguarichi
 mainero
 malinalco
 malinaltepec
 maltrata
 mama
-maní
+mani
 manlio fabio altamirano
 manuel benavides
 manuel doblado
 manzanillo
 mapastepec
-mapimí
-maravatío
+mapimi
+maravatio
 maravilla tenejapa
 marcos castellanos
 mariano escobedo
-marín
-mariscala de juárez
+marin
+mariscala de juarez
 marquelia
-marqués de comillas
-martínez de la torre
-mártir de cuilapan
-mártires de tacubaya
+marques de comillas
+martinez de la torre
+martir de cuilapan
+martires de tacubaya
 mascota
-matachí
+matachi
 matamoros
 matehuala
-matías romero avendaño
+matias romero avendaño
 matlapa
-maxcanú
-mayapán
+maxcanu
+mayapan
 mazamitla
 mazapa de madero
 mazapil
-mazapiltepec de juárez
-mazatán
-mazatecochco de josé maría morelos
+mazapiltepec de juarez
+mazatan
+mazatecochco de jose maria morelos
 mazatepec
-mazatlán
-mazatlán villa de flores
-mecatlán
+mazatlan
+mazatlan villa de flores
+mecatlan
 mecayapan
-medellín
+medellin
 melchor ocampo
-méndez
+mendez
 meoqui
-mérida
+merida
 mesones hidalgo
 metapa
 metepec
-metlatónoc
-metztitlán
-mex.
+metlatonoc
+metztitlan
 mex
-méx
-méx.
-méx df
+mex
+mex
+mex
+mex df
 mexicalli
 mexicaltzingo
 mexico
-méxico city
-méxico
-méxico df
-méxico distrito federal
-méxico estado de méxico
-méxico morelia
+mexico city
+mexico
+mexico df
+mexico distrito federal
+mexico estado de mexico
+mexico morelia
 mexquitic de carmona
-mexticacán
+mexticacan
 mezquital
 mezquital del oro
 mezquitic
-miacatlán
-miahuatlán
-miahuatlán de porfirio díaz
+miacatlan
+miahuatlan
+miahuatlan de porfirio diaz
 mich
-michoacán
-michoacán de ocampo
-michoacán tuxpan
+michoacan
+michoacan de ocampo
+michoacan tuxpan
 mier
 mier y noriega
-miguel alemán
+miguel aleman
 miguel auza
 miguel hidalgo
 milpa alta
 mina
-minatitlán
+minatitlan
 mineral de la reforma
 mineral del chico
 mineral del monte
 miquihuana
 misantla
 mitontic
-mixistlán de la reforma
-mixquiahuala de juárez
+mixistlan de la reforma
+mixquiahuala de juarez
 mixtla
 mixtla de altamirano
-mixtlán
-mochitlán
-mocochá
+mixtlan
+mochitlan
+mococha
 mocorito
 moctezuma
 molango de escamilla
 molcaxac
-moloacán
+moloacan
 momax
 monclova
 monjas
@@ -1027,37 +1027,37 @@ montecristo de guerrero
 monte escobedo
 montemorelos
 monterrey
-monterrey, nuevo león
+monterrey nuevo leon
 mor
 morelia
 morelos
 moris
-moroleón
+moroleon
 motozintla
 motul
 moyahua de estrada
-múgica
-mulegé
+mugica
+mulege
 muna
 muñoz de domingo arenas
 muxupip
-múzquiz
+muzquiz
 mx
 nacajuca
 naco
-nácori chico
-nacozari de garcía
+nacori chico
+nacozari de garcia
 nadadores
 nahuatzen
 namiquipa
 nanacamilpa de mariano arista
-nanchital de lázaro cárdenas del río
+nanchital de lazaro cardenas del rio
 naolinco
 naranjal
-naranjos amatlán
+naranjos amatlan
 natividad
-natívitas
-naucalpan de juárez
+nativitas
+naucalpan de juarez
 naupan
 nautla
 nauzontla
@@ -1071,39 +1071,39 @@ nazas
 nealtican
 nejapa de madero
 nextlalpan
-nezahualcóyotl
-nicolás bravo
-nicolás flores
-nicolás romero
-nicolás ruíz
-n.l.
-nochistlán de mejía
-nocupétaro
+nezahualcoyotl
+nicolas bravo
+nicolas flores
+nicolas romero
+nicolas ruiz
+nl
+nochistlan de mejia
+nocupetaro
 nogales
 nombre de dios
 nonoava
-nopala de villagrán
+nopala de villagran
 nopaltepec
 nopalucan
-noria de ángeles
+noria de angeles
 nuevo casas grandes
 nuevo ideal
 nuevo laredo
 nuevo leon
-nuevo león
+nuevo leon
 nuevo morelos
 nuevo parangaricutiro
 nuevo urecho
-nuevo zoquiápam
-numarán
+nuevo zoquiapam
+numaran
 oax
 oaxaca
-oaxaca de juárez
+oaxaca de juarez
 ocampo
 ocosingo
 ocotepec
-ocotlán
-ocotlán de morelos
+ocotlan
+ocotlan de morelos
 ocoyoacac
 ocoyucan
 ocozocoautla de espinosa
@@ -1112,24 +1112,24 @@ ocuituco
 ojinaga
 ojocaliente
 ojuelos de jalisco
-olinalá
+olinala
 olintla
 oluta
 omealca
 ometepec
-omitlán de juárez
+omitlan de juarez
 onavas
-opichén
+opichen
 opodepe
 oquitoa
 oriental
 orizaba
-ostuacán
+ostuacan
 osumacinta
-otáez
-otatitlán
+otaez
+otatitlan
 oteapan
-othón p. blanco
+othon p blanco
 otumba
 otzoloapan
 otzolotepec
@@ -1137,47 +1137,47 @@ oxchuc
 oxkutzcab
 ozuluama de mascareñas
 ozumba
-pabellón de arteaga
+pabellon de arteaga
 pachuca de soto
 pachuca hidalgo
 pacula
 padilla
-pahuatlán
-pajacuarán
+pahuatlan
+pajacuaran
 pajapan
 palenque
 palizada
 palmar de bravo
 palmillas
-panabá
-panindícuaro
+panaba
+panindicuaro
 panotla
-pantelhó
+pantelho
 pantepec
-pánuco
-pánuco de coronado
+panuco
+panuco de coronado
 papalotla
-papalotla de xicohténcatl
+papalotla de xicohtencatl
 papantla
 paracho
-parácuaro
-paraíso
-parás
+paracuaro
+paraiso
+paras
 parral chihuahua
 parras
 paso del macho
 paso de ovejas
-pátzcuaro
+patzcuaro
 pedro ascencio alquisiras
 pedro escobedo
 penjamillo
-pénjamo
+penjamo
 peñamiller
-peñón blanco
-peribán
+peñon blanco
+periban
 perote
-pesquería
-petatlán
+pesqueria
+petatlan
 petlalcingo
 peto
 piaxtla
@@ -1191,40 +1191,40 @@ pinos
 pinotepa de don luis
 pisaflores
 pitiquito
-platón sánchez
+platon sanchez
 playas de rosarito
 playa vicente
 pluma hidalgo
 poanas
-polotitlán
-poncitlán
+polotitlan
+poncitlan
 poza rica de hidalgo
-praxedis g. guerrero
+praxedis g guerrero
 progreso
-progreso de obregón
+progreso de obregon
 pue
 puebla
-puebla méxico
+puebla mexico
 pueblo nuevo
-pueblo nuevo solistahuacán
+pueblo nuevo solistahuacan
 pueblo viejo
 puente de ixtla
 puente nacional
 puerto peñasco
 puerto vallarta
 pungarabato
-purépero
-purísima del rincón
-puruándiro
+purepero
+purisima del rincon
+puruandiro
 putla villa de guerrero
 qro
 q roo
 quecholac
 quechultenango
-queréndaro
+querendaro
 queretaro
-querétaro
-quimixtlán
+queretaro
+quimixtlan
 quintana roo
 quiriego
 quiroga
@@ -1233,27 +1233,27 @@ rafael delgado
 rafael lara grajales
 rafael lucio
 ramos arizpe
-rayón
+rayon
 rayones
 reforma
 reforma de pineda
-república mexicana
+republica mexicana
 reyes etla
 reynosa
-rincón de romos
-río blanco
-río bravo
-río grande
-río lagartos
+rincon de romos
+rio blanco
+rio bravo
+rio grande
+rio lagartos
 rioverde
 riva palacio
 rodeo
-rojas de cuauhtémoc
+rojas de cuauhtemoc
 romita
 rosales
 rosamorada
 rosario
-ruíz
+ruiz
 sabanilla
 sabinas
 sabinas hidalgo
@@ -1273,36 +1273,36 @@ salvador alvarado
 salvador escalante
 salvatierra
 samahil
-san agustín amatengo
-san agustín atenango
-san agustín chayuco
-san agustín de las juntas
-san agustín etla
-san agustín loxicha
-san agustín metzquititlán
-san agustín tlacotepec
-san agustín tlaxiaca
-san agustín yatareni
+san agustin amatengo
+san agustin atenango
+san agustin chayuco
+san agustin de las juntas
+san agustin etla
+san agustin loxicha
+san agustin metzquititlan
+san agustin tlacotepec
+san agustin tlaxiaca
+san agustin yatareni
 sanahcat
-san andrés cabecera nueva
-san andrés cholula
-san andrés dinicuiti
-san andrés duraznal
-san andrés huaxpaltepec
-san andrés huayápam
-san andrés ixtlahuaca
-san andrés lagunas
-san andrés nuxiño
-san andrés paxtlán
-san andrés sinaxtla
-san andrés solaga
-san andrés tenejapan
-san andrés teotilálpam
-san andrés tepetlapa
-san andrés tuxtla
-san andrés yaá
-san andrés zabache
-san andrés zautla
+san andres cabecera nueva
+san andres cholula
+san andres dinicuiti
+san andres duraznal
+san andres huaxpaltepec
+san andres huayapam
+san andres ixtlahuaca
+san andres lagunas
+san andres nuxiño
+san andres paxtlan
+san andres sinaxtla
+san andres solaga
+san andres tenejapan
+san andres teotilalpam
+san andres tepetlapa
+san andres tuxtla
+san andres yaa
+san andres zabache
+san andres zautla
 san antonino castillo velasco
 san antonino el alto
 san antonino monte verde
@@ -1312,18 +1312,18 @@ san antonio cañada
 san antonio de la cal
 san antonio huitepec
 san antonio la isla
-san antonio nanahuatípam
+san antonio nanahuatipam
 san antonio sinicahua
 san antonio tepetlapa
-san baltazar chichicápam
+san baltazar chichicapam
 san baltazar loxicha
 san baltazar yatzachi el bajo
 san bartolo coyotepec
-san bartolomé ayautla
-san bartolomé loxicha
-san bartolomé quialana
-san bartolomé yucuañe
-san bartolomé zoogocho
+san bartolome ayautla
+san bartolome loxicha
+san bartolome quialana
+san bartolome yucuañe
+san bartolome zoogocho
 san bartolo soyaltepec
 san bartolo tutotepec
 san bartolo yautepec
@@ -1335,46 +1335,46 @@ san buenaventura
 san carlos
 san carlos yautepec
 san ciro de acosta
-san cristóbal amatlán
-san cristóbal amoltepec
-san cristóbal de la barranca
-san cristóbal de las casas
-san cristóbal lachirioag
-san cristóbal suchixtlahuaca
-sanctórum de lázaro cárdenas
-san damián texóloc
-san diego de alejandría
-san diego de la unión
+san cristobal amatlan
+san cristobal amoltepec
+san cristobal de la barranca
+san cristobal de las casas
+san cristobal lachirioag
+san cristobal suchixtlahuaca
+sanctorum de lazaro cardenas
+san damian texoloc
+san diego de alejandria
+san diego de la union
 san diego la mesa tochimiltzingo
 san dimas
 san dionisio del mar
 san dionisio ocotepec
-san dionisio ocotlán
+san dionisio ocotlan
 san esteban atatlahuca
 san felipe
-san felipe de jesús
+san felipe de jesus
 san felipe del progreso
-san felipe jalapa de díaz
-san felipe orizatlán
-san felipe tejalápam
+san felipe jalapa de diaz
+san felipe orizatlan
+san felipe tejalapam
 san felipe teotlalcingo
-san felipe tepatlán
+san felipe tepatlan
 san felipe usila
 san fernando
-san francisco cahuacuá
+san francisco cahuacua
 san francisco cajonos
 san francisco chapulapa
-san francisco chindúa
+san francisco chindua
 san francisco de borja
 san francisco de conchos
 san francisco del mar
 san francisco del oro
 san francisco de los romo
-san francisco del rincón
-san francisco huehuetlán
-san francisco ixhuatán
+san francisco del rincon
+san francisco huehuetlan
+san francisco ixhuatan
 san francisco jaltepetongo
-san francisco lachigoló
+san francisco lachigolo
 san francisco logueche
 san francisco nuxaño
 san francisco ozolotepec
@@ -1389,47 +1389,47 @@ san gabriel mixtepec
 san gregorio atzompa
 san ignacio
 san ignacio cerro gordo
-san ignacio río muerto
-san ildefonso amatlán
+san ignacio rio muerto
+san ildefonso amatlan
 san ildefonso sola
 san ildefonso villa alta
 san jacinto amilpas
 san jacinto tlacotepec
 san javier
-san jerónimo coatlán
-san jerónimo silacayoapilla
-san jerónimo sosola
-san jerónimo taviche
-san jerónimo tecóatl
-san jerónimo tecuanipan
-san jerónimo tlacochahuaya
-san jerónimo xayacatlán
-san jerónimo zacualpan
-san joaquín
+san jeronimo coatlan
+san jeronimo silacayoapilla
+san jeronimo sosola
+san jeronimo taviche
+san jeronimo tecoatl
+san jeronimo tecuanipan
+san jeronimo tlacochahuaya
+san jeronimo xayacatlan
+san jeronimo zacualpan
+san joaquin
 san jorge nuchita
-san josé ayuquila
-san josé chiapa
-san josé chiltepec
-san josé de gracia
-san josé del peñasco
-san josé del progreso
-san josé del rincón
-san josé estancia grande
-san josé independencia
-san josé iturbide
-san josé lachiguiri
-san josé miahuatlán
-san josé teacalco
-san josé tenango
+san jose ayuquila
+san jose chiapa
+san jose chiltepec
+san jose de gracia
+san jose del peñasco
+san jose del progreso
+san jose del rincon
+san jose estancia grande
+san jose independencia
+san jose iturbide
+san jose lachiguiri
+san jose miahuatlan
+san jose teacalco
+san jose tenango
 san juan achiutla
 san juan atenco
 san juan atepec
 san juan atzompa
 san juan bautista atatlahuca
 san juan bautista coixtlahuaca
-san juan bautista cuicatlán
+san juan bautista cuicatlan
 san juan bautista guelache
-san juan bautista jayacatlán
+san juan bautista jayacatlan
 san juan bautista lo de soto
 san juan bautista suchitepec
 san juan bautista tlachichilco
@@ -1438,23 +1438,23 @@ san juan bautista tuxtepec
 san juan bautista valle nacional
 san juan cacahuatepec
 san juan cancuc
-san juan chicomezúchil
+san juan chicomezuchil
 san juan chilateca
 san juan cieneguilla
-san juan coatzóspam
+san juan coatzospam
 san juan colorado
 san juan comaltepec
-san juan cotzocón
+san juan cotzocon
 san juan de guadalupe
 san juan del estado
-san juan de los cués
+san juan de los cues
 san juan de los lagos
-san juan del río
+san juan del rio
 san juan de sabinas
 san juan diuxi
 san juan evangelista
 san juan evangelista analco
-san juan guelavía
+san juan guelavia
 san juan guichicovi
 san juan huactzinco
 san juan ihualtepec
@@ -1465,92 +1465,92 @@ san juan lachao
 san juan lachigalla
 san juan lajarcia
 san juan lalana
-san juan mazatlán
+san juan mazatlan
 san juan mixtepec 
-san juan ñumí
+san juan ñumi
 san juan ozolotepec
 san juan petlapa
 san juan quiahije
 san juan quiotepec
 san juan sayultepec
-san juan tabaá
+san juan tabaa
 san juan tamazola
 san juan teita
 san juan teitipac
 san juan tepeuxila
 san juan teposcolula
-san juan yaeé
+san juan yaee
 san juan yatzona
 san juan yucuita
-san julián
+san julian
 san lorenzo
 san lorenzo albarradas
 san lorenzo axocomanitla
 san lorenzo cacaotepec
 san lorenzo cuaunecuiltitla
-san lorenzo texmelúcan
+san lorenzo texmelucan
 san lorenzo victoria
 san lucas
-san lucas camotlán
-san lucas ojitlán
-san lucas quiaviní
+san lucas camotlan
+san lucas ojitlan
+san lucas quiavini
 san lucas tecopilco
-san lucas zoquiápam
-san luis acatlán
-san luis amatlán
+san lucas zoquiapam
+san luis acatlan
+san luis amatlan
 san luis de la paz
 san luis del cordero
 san luis potosi
-san luis potosí
-san luis río colorado
+san luis potosi
+san luis rio colorado
 san marcial ozolotepec
 san marcos
 san marcos arteaga
-san martín chalchicuautla
-san martín de bolaños
-san martín de las pirámides
-san martín de los cansecos
-san martín hidalgo
-san martín huamelúlpam
-san martín itunyoso
-san martín lachilá
-san martín peras
-san martín texmelucan
-san martín tilcajete
-san martín totoltepec
-san martín toxpalan
-san martín zacatepec
+san martin chalchicuautla
+san martin de bolaños
+san martin de las piramides
+san martin de los cansecos
+san martin hidalgo
+san martin huamelulpam
+san martin itunyoso
+san martin lachila
+san martin peras
+san martin texmelucan
+san martin tilcajete
+san martin totoltepec
+san martin toxpalan
+san martin zacatepec
 san mateo atenco
 san mateo cajonos
 san mateo del mar
 san mateo etlatongo
-san mateo nejápam
+san mateo nejapam
 san mateo peñasco
 san mateo piñas
-san mateo río hondo
+san mateo rio hondo
 san mateo sindihui
 san mateo tlapiltepec
-san mateo yoloxochitlán
-san mateo yucutindó
-san matías tlalancaleca
+san mateo yoloxochitlan
+san mateo yucutindo
+san matias tlalancaleca
 san melchor betaza
 san miguel achiutla
-san miguel ahuehuetitlán
-san miguel aloápam
-san miguel amatitlán
-san miguel amatlán
+san miguel ahuehuetitlan
+san miguel aloapam
+san miguel amatitlan
+san miguel amatlan
 san miguel chicahua
 san miguel chimalapa
-san miguel coatlán
+san miguel coatlan
 san miguel de allende
 san miguel de horcasitas
 san miguel del puerto
-san miguel del río
+san miguel del rio
 san miguel ejutla
 san miguel el alto
 san miguel el grande
 san miguel huautla
-san miguel ixitlán
+san miguel ixitlan
 san miguel mixtepec
 san miguel panixtlahuaca
 san miguel peras
@@ -1559,24 +1559,24 @@ san miguel quetzaltepec
 san miguel santa flor
 san miguel soyaltepec
 san miguel suchixtepec
-san miguel tecomatlán
+san miguel tecomatlan
 san miguel tenango
 san miguel tequixtepec
-san miguel tilquiápam
+san miguel tilquiapam
 san miguel tlacamama
 san miguel tlacotepec
 san miguel totolapan
 san miguel tulancingo
 san miguel xoxtla
 san miguel yotao
-san nicolás
-san nicolás buenos aires
-san nicolás de los garza
-san nicolás de los ranchos
-san nicolás hidalgo
-san nicolás tolentino
+san nicolas
+san nicolas buenos aires
+san nicolas de los garza
+san nicolas de los ranchos
+san nicolas hidalgo
+san nicolas tolentino
 san pablo anicano
-san pablo coatlán
+san pablo coatlan
 san pablo cuatro venados
 san pablo del monte
 san pablo etla
@@ -1588,28 +1588,28 @@ san pablo villa de mitla
 san pablo yaganiza
 san pedro
 san pedro amuzgos
-san pedro apóstol
+san pedro apostol
 san pedro atoyac
 san pedro cajonos
 san pedro cholula
 san pedro comitancillo
-san pedro coxcaltepec cántaros
+san pedro coxcaltepec cantaros
 san pedro de la cueva
 san pedro del gallo
 san pedro el alto
-san pedro garza garcía
+san pedro garza garcia
 san pedro huamelula
 san pedro huilotepec
-san pedro ixcatlán
+san pedro ixcatlan
 san pedro ixtlahuaca
 san pedro jaltepetongo
-san pedro jicayán
+san pedro jicayan
 san pedro jocotipac
 san pedro juchatengo
 san pedro lagunillas
-san pedro mártir
-san pedro mártir quiechapa
-san pedro mártir yucuxaco
+san pedro martir
+san pedro martir quiechapa
+san pedro martir yucuxaco
 san pedro mixtepec
 san pedro molinos
 san pedro nopala
@@ -1617,17 +1617,17 @@ san pedro ocopetatillo
 san pedro ocotepec
 san pedro pochutla
 san pedro quiatoni
-san pedro sochiápam
+san pedro sochiapam
 san pedro tapanatepec
 san pedro taviche
 san pedro teozacoalco
 san pedro teutila
-san pedro tidaá
+san pedro tidaa
 san pedro topiltepec
-san pedro totolápam
+san pedro totolapam
 san pedro yaneri
 san pedro yeloixtlahuaca
-san pedro yólox
+san pedro yolox
 san pedro y san pablo ayutla
 san pedro y san pablo teposcolula
 san pedro y san pablo tequixtepec
@@ -1638,22 +1638,22 @@ san salvador
 san salvador el seco
 san salvador el verde
 san salvador huixcolotla
-san sebastián abasolo
-san sebastián coatlán
-san sebastián del oeste
-san sebastián ixcapa
-san sebastián nicananduta
-san sebastián río hondo
-san sebastián tecomaxtlahuaca
-san sebastián teitipac
-san sebastián tlacotepec
-san sebastián tutla
-san simón almolongas
-san simón de guerrero
-san simón zahuatlán
+san sebastian abasolo
+san sebastian coatlan
+san sebastian del oeste
+san sebastian ixcapa
+san sebastian nicananduta
+san sebastian rio hondo
+san sebastian tecomaxtlahuaca
+san sebastian teitipac
+san sebastian tlacotepec
+san sebastian tutla
+san simon almolongas
+san simon de guerrero
+san simon zahuatlan
 santa ana
 santa ana ateixtlahuaca
-santa ana cuauhtémoc
+santa ana cuauhtemoc
 santa ana del valle
 santa ana maya
 santa ana nopalucan
@@ -1662,8 +1662,8 @@ santa ana tlapacoyan
 santa ana yareni
 santa ana zegache
 santa apolonia teacalco
-santa bárbara
-santa catalina quierí
+santa barbara
+santa catalina quieri
 santa catarina
 santa catarina ayometla
 santa catarina cuixtla
@@ -1671,14 +1671,14 @@ santa catarina ixtepeji
 santa catarina juquila
 santa catarina lachatao
 santa catarina loxicha
-santa catarina mechoacán
+santa catarina mechoacan
 santa catarina minas
-santa catarina quiané
+santa catarina quiane
 santa catarina quioquitani
 santa catarina tayata
-santa catarina ticuá
+santa catarina ticua
 santa catarina tlaltempan
-santa catarina yosonotú
+santa catarina yosonotu
 santa catarina zapoquila
 santa clara
 santa cruz
@@ -1696,97 +1696,97 @@ santa cruz tacahua
 santa cruz tayata
 santa cruz tlaxcala
 santa cruz xitla
-santa cruz xoxocotlán
+santa cruz xoxocotlan
 santa cruz zenzontepec
 santa elena
 santa gertrudis
-santa inés ahuatempan
-santa inés del monte
-santa inés de zaragoza
-santa inés yatzeche
+santa ines ahuatempan
+santa ines del monte
+santa ines de zaragoza
+santa ines yatzeche
 santa isabel
 santa isabel cholula
 santa isabel xiloxoxtla
-santa lucía del camino
-santa lucía miahuatlán
-santa lucía monteverde
-santa lucía ocotlán
-santa magdalena jicotlán
-santa maría alotepec
-santa maría apazco
-santa maría atzompa
-santa maría camotlán
-santa maría chachoápam
-santa maría chilchotla
-santa maría chimalapa
-santa maría colotepec
-santa maría cortijo
-santa maría coyotepec
-santa maría de la paz
-santa maría del oro
-santa maría de los ángeles
-santa maría del río
-santa maría del rosario
-santa maría del tule
-santa maría ecatepec
-santa maría guelacé
-santa maría guienagati
-santa maría huatulco
-santa maría huazolotitlán
-santa maría ipalapa
-santa maría ixcatlán
-santa maría jacatepec
-santa maría jalapa del marqués
-santa maría jaltianguis
-santa maría la asunción
-santa maría lachixío
-santa maría mixtequilla
-santa maría nativitas
-santa maría nduayaco
-santa maría ozolotepec
-santa maría pápalo
-santa maría peñoles
-santa maría petapa
-santa maría quiegolani
-santa maría sola
-santa maría tataltepec
-santa maría tecomavaca
-santa maría temaxcalapa
-santa maría temaxcaltepec
-santa maría teopoxco
-santa maría tepantlali
-santa maría texcatitlán
-santa maría tlahuitoltepec
-santa maría tlalixtac
-santa maría tonameca
-santa maría totolapilla
-santa maría xadani
-santa maría yalina
-santa maría yavesía
-santa maría yolotepec
-santa maría yosoyúa
-santa maría yucuhiti
-santa maría zacatepec
-santa maría zaniza
-santa maría zoquitlán
+santa lucia del camino
+santa lucia miahuatlan
+santa lucia monteverde
+santa lucia ocotlan
+santa magdalena jicotlan
+santa maria alotepec
+santa maria apazco
+santa maria atzompa
+santa maria camotlan
+santa maria chachoapam
+santa maria chilchotla
+santa maria chimalapa
+santa maria colotepec
+santa maria cortijo
+santa maria coyotepec
+santa maria de la paz
+santa maria del oro
+santa maria de los angeles
+santa maria del rio
+santa maria del rosario
+santa maria del tule
+santa maria ecatepec
+santa maria guelace
+santa maria guienagati
+santa maria huatulco
+santa maria huazolotitlan
+santa maria ipalapa
+santa maria ixcatlan
+santa maria jacatepec
+santa maria jalapa del marques
+santa maria jaltianguis
+santa maria la asuncion
+santa maria lachixio
+santa maria mixtequilla
+santa maria nativitas
+santa maria nduayaco
+santa maria ozolotepec
+santa maria papalo
+santa maria peñoles
+santa maria petapa
+santa maria quiegolani
+santa maria sola
+santa maria tataltepec
+santa maria tecomavaca
+santa maria temaxcalapa
+santa maria temaxcaltepec
+santa maria teopoxco
+santa maria tepantlali
+santa maria texcatitlan
+santa maria tlahuitoltepec
+santa maria tlalixtac
+santa maria tonameca
+santa maria totolapilla
+santa maria xadani
+santa maria yalina
+santa maria yavesia
+santa maria yolotepec
+santa maria yosoyua
+santa maria yucuhiti
+santa maria zacatepec
+santa maria zaniza
+santa maria zoquitlan
 santiago
 santiago amoltepec
 santiago apoala
-santiago apóstol
+santiago apostol
 santiago astata
-santiago atitlán
+santiago atitlan
 santiago ayuquililla
 santiago cacaloxtepec
-santiago camotlán
+santiago camotlan
 santiago chazumba
-santiago choápam
+santiago choapam
 santiago comaltepec
 santiago de anaya
-santiago del río
+santiago del rio
 santiago el pinar
-santiago huajolotitlán
+santiago huajolotitlan
 santiago huauclilla
-santiago ihuitlán plumas
+santiago ihuitlan plumas
 santiago ixcuintepec
 santiago ixcuintla
 santiago ixtayutla
@@ -1798,16 +1798,16 @@ santiago lalopa
 santiago laollaga
 santiago laxopa
 santiago llano grande
-santiago maravatío
-santiago matatlán
-santiago miahuatlán
+santiago maravatio
+santiago matatlan
+santiago miahuatlan
 santiago miltepec
 santiago minas
 santiago nacaltepec
 santiago nejapilla
 santiago niltepec
 santiago nundiche
-santiago nuyoó
+santiago nuyoo
 santiago papasquiaro
 santiago pinotepa nacional
 santiago sochiapan
@@ -1818,82 +1818,82 @@ santiago tenango
 santiago tepetlapa
 santiago tetepec
 santiago texcalcingo
-santiago textitlán
+santiago textitlan
 santiago tilantongo
 santiago tillo
 santiago tlazoyaltepec
 santiago tulantepec de lugo guerrero
 santiago tuxtla
 santiago xanica
-santiago xiacuí
+santiago xiacui
 santiago yaitepec
 santiago yaveo
-santiago yolomécatl
-santiago yosondúa
+santiago yolomecatl
+santiago yosondua
 santiago yucuyachi
 santiago zacatepec
 santiago zoochila
 santo domingo
 santo domingo albarradas
 santo domingo armenta
-santo domingo chihuitán
+santo domingo chihuitan
 santo domingo de morelos
 santo domingo ingenio
-santo domingo ixcatlán
-santo domingo nuxaá
+santo domingo ixcatlan
+santo domingo nuxaa
 santo domingo ozolotepec
 santo domingo petapa
 santo domingo roayaga
 santo domingo tehuantepec
 santo domingo teojomulco
 santo domingo tepuxtepec
-santo domingo tlatayápam
+santo domingo tlatayapam
 santo domingo tomaltepec
-santo domingo tonalá
+santo domingo tonala
 santo domingo tonaltepec
-santo domingo xagacía
-santo domingo yanhuitlán
+santo domingo xagacia
+santo domingo yanhuitlan
 santo domingo yodohino
 santo domingo zanatepec
 santos reyes nopala
-santos reyes pápalo
+santos reyes papalo
 santos reyes tepejillo
-santos reyes yucuná
-santo tomás
-santo tomás hueyotlipan
-santo tomás jalieza
-santo tomás mazaltepec
-santo tomás ocotepec
-santo tomás tamazulapan
-san vicente coatlán
-san vicente lachixío
-san vicente nuñú
+santos reyes yucuna
+santo tomas
+santo tomas hueyotlipan
+santo tomas jalieza
+santo tomas mazaltepec
+santo tomas ocotepec
+santo tomas tamazulapan
+san vicente coatlan
+san vicente lachixio
+san vicente nuñu
 san vicente tancuayalab
-sáric
-satevó
+saric
+satevo
 saucillo
 sayula
-sayula de alemán
+sayula de aleman
 senguio
-seyé
+seye
 sierra mojada
-silacayoápam
+silacayoapam
 silao
 siltepec
 simojovel
 sinaloa
-sinanché
+sinanche
 singuilucan
-sitalá
+sitala
 sitio de xitlapehua
-s.l.p.
+slp
 slp
 sochiapa
 socoltenango
 soconusco
 soledad atzompa
 soledad de doblado
-soledad de graciano sánchez
+soledad de graciano sanchez
 soledad etla
 solidaridad
 solosuchiapa
@@ -1903,51 +1903,51 @@ sonora
 soteapan
 soto la marina
 sotuta
-soyaló
-soyaniquilpan de juárez
+soyalo
+soyaniquilpan de juarez
 soyopa
 suaqui grande
 suchiapa
 suchiate
-súchil
-sucilá
+suchil
+sucila
 sudzal
 sultepec
 suma
 sunuapa
-susticacán
+susticacan
 susupuato
 tabasco
-tacámbaro
+tacambaro
 tacotalpa
-tahdziú
+tahdziu
 tahmek
 tala
 talpa de allende
-tamalín
+tamalin
 tamasopo
 tamaulipas
 tamazula
 tamazula de gordiano
-tamazulápam del espíritu santo
+tamazulapam del espiritu santo
 tamazunchale
 tamiahua
-tampacán
-tampamolón corona
+tampacan
+tampamolon corona
 tampico
 tampico alto
 tamps
-tamuín
+tamuin
 tancanhuitz
-tancítaro
+tancitaro
 tancoco
 tanetze de zaragoza
 tangamandapio
-tangancícuaro
+tangancicuaro
 tanhuato
 taniche
-tanlajás
-tanquián de escobedo
+tanlajas
+tanquian de escobedo
 tantima
 tantoyuca
 tapachula
@@ -1956,37 +1956,37 @@ tapalpa
 tapilula
 tarandacuao
 taretan
-tarímbaro
+tarimbaro
 tarimoro
 tasquillo
-tatahuicapan de juárez
-tataltepec de valdés
+tatahuicapan de juarez
+tataltepec de valdes
 tatatila
-taxco de alarcón
+taxco de alarcon
 teabo
 teapa
 tecali de herrera
-tecalitlán
-tecámac
+tecalitlan
+tecamac
 tecamachalco
 tecate
 techaluta de montenegro
 tecoanapa
 tecoh
-tecolotlán
+tecolotlan
 tecolutla
-tecomán
-tecomatlán
+tecoman
+tecomatlan
 tecozautla
-técpan de galeana
-tecpatán
+tecpan de galeana
+tecpatan
 tecuala
-tehuacán
+tehuacan
 tehuipango
 tehuitzingo
 tejupilco
 tekal de venegas
-tekantó
+tekanto
 tekax
 tekit
 tekom
@@ -2001,11 +2001,11 @@ temax
 temixco
 temoac
 temoaya
-temósachic
-temozón
+temosachic
+temozon
 tempoal
 tenabo
-tenamaxtlán
+tenamaxtlan
 tenampa
 tenampulco
 tenancingo
@@ -2013,62 +2013,62 @@ tenango de doria
 tenango del aire
 tenango del valle
 tenejapa
-tenochtitlán
+tenochtitlan
 tenosique
 teocaltiche
 teocelo
-teococuilco de marcos pérez
-teocuitatlán de corona
+teococuilco de marcos perez
+teocuitatlan de corona
 teolocholco
-teoloyucán
-teopantlán
+teoloyucan
+teopantlan
 teopisca
-teotihuacán
-teotitlán de flores magón
-teotitlán del valle
+teotihuacan
+teotitlan de flores magon
+teotitlan del valle
 teotlalco
 teotongo
 tepache
-tepakán
+tepakan
 tepalcatepec
 tepalcingo
-tepanco de lópez
-tepango de rodríguez
-tepatitlán de morelos
+tepanco de lopez
+tepango de rodriguez
+tepatitlan de morelos
 tepatlaxco
 tepatlaxco de hidalgo
 tepeaca
 tepeapulco
-tepechitlán
+tepechitlan
 tepecoacuilco de trujano
-tepehuacán de guerrero
+tepehuacan de guerrero
 tepehuanes
-tepeji del río de ocampo
+tepeji del rio de ocampo
 tepelmeme villa de morelos
 tepemaxalco
 tepeojuma
-tepetitla de lardizábal
-tepetitlán
-tepetlán
+tepetitla de lardizabal
+tepetitlan
+tepetlan
 tepetlaoxtoc
 tepetlixpa
 tepetongo
 tepetzintla
 tepexco
-tepexi de rodríguez
+tepexi de rodriguez
 tepeyahualco
-tepeyahualco de cuauhtémoc
+tepeyahualco de cuauhtemoc
 tepeyanco
-tepezalá
+tepezala
 tepic
-tepotzotlán
-tepoztlán
+tepotzotlan
+tepoztlan
 tequila
 tequisquiapan
 tequixquiac
 terrenate
 tetecala
-tetela del volcán
+tetela del volcan
 tetela de ocampo
 teteles de avila castillo
 tetepango
@@ -2076,17 +2076,17 @@ tetipac
 tetiz
 tetla de la solidaridad
 tetlatlahuca
-teuchitlán
-teúl de gonzález ortega
-texcaltitlán
+teuchitlan
+teul de gonzalez ortega
+texcaltitlan
 texcalyacac
 texcatepec
 texcoco
-texhuacán
+texhuacan
 texistepec
 teya
-teziutlán
-tezoatlán de segura y luna
+teziutlan
+tezoatlan de segura y luna
 tezonapa
 tezontepec de aldama
 tezoyuca
@@ -2096,7 +2096,7 @@ tianguistengo
 ticul
 tierra blanca
 tierra nueva
-tihuatlán
+tihuatlan
 tijuana 
 tijuana bc
 tijuana baja california
@@ -2105,17 +2105,17 @@ tilapa
 timilpan
 timucuy
 tingambato
-tingindín
+tingindin
 tinum
-tiquicheo de nicolás romero
+tiquicheo de nicolas romero
 tixcacalcupul
 tixkokob
 tixmehuac
-tixpéhual
+tixpehual
 tixtla de guerrero
-tizapán el alto
+tizapan el alto
 tizayuca
-tizimín
+tizimin
 tlachichilco
 tlachichuca
 tlacoachistlahuaca
@@ -2124,16 +2124,16 @@ tlacojalpan
 tlacolula de matamoros
 tlacolulan
 tlacotalpan
-tlacotepec de benito juárez
-tlacotepec de mejía
+tlacotepec de benito juarez
+tlacotepec de mejia
 tlacotepec plumas
 tlacuilotepec
-tláhuac
+tlahuac
 tlahualilo
 tlahuapan
 tlahuelilpan
 tlahuiltepa
-tlajomulco de zúñiga
+tlajomulco de zuñiga
 tlalchapa
 tlalixcoyan
 tlalixtac de cabrera
@@ -2145,9 +2145,9 @@ tlalnepantla de baz
 tlalpan
 tlalpujahua
 tlaltenango
-tlaltenango de sánchez román
+tlaltenango de sanchez roman
 tlaltetela
-tlaltizapán
+tlaltizapan
 tlanalapa
 tlanchinol
 tlanepantla
@@ -2155,7 +2155,7 @@ tlaola
 tlapacoya
 tlapacoyan
 tlapa de comonfort
-tlapanalá
+tlapanala
 tlapehuala
 tlaquepaque
 tlaquilpa
@@ -2169,34 +2169,34 @@ tlaxcoapan
 tlayacapan
 tlazazalca
 tlilapan
-tocatlán
+tocatlan
 tochimilco
 tochtepec
 tocumbo
 tolcayuca
-tolimán
+toliman
 toluca
-tomatlán
-tonalá
+tomatlan
+tonala
 tonanitla
 tonatico
 tonaya
-tonayán
+tonayan
 tonila
 topia
-torreón
+torreon
 totatiche
 totolac
 totolapa
 totolapan
 totoltepec de guerrero
 totontepec villa de morelos
-tototlán
+tototlan
 totutla
 trancoso
 tres valles
 trincheras
-trinidad garcía de la cadena
+trinidad garcia de la cadena
 trinidad zaachila
 tubutama
 tula
@@ -2204,21 +2204,21 @@ tula de allende
 tulancingo de bravo
 tulcingo
 tultepec
-tultitlán
+tultitlan
 tulum
-tumbalá
-tumbiscatío
-tunkás
+tumbala
+tumbiscatio
+tunkas
 turicato
 tuxcacuesco
 tuxcueca
 tuxpan
-tuxpan michoacán
+tuxpan michoacan
 tuxtilla
 tuxtla chico
-tuxtla gutiérrez
+tuxtla gutierrez
 tuzamapan de galeana
-tuzantán
+tuzantan
 tuzantla
 tzicatlacoyan
 tzimol
@@ -2227,19 +2227,19 @@ tzitzio
 tzompantepec
 tzucacab
 uayma
-ucú
-umán
-unión de san antonio
-unión de tula
-unión hidalgo
-unión juárez
+ucu
+uman
+union de san antonio
+union de tula
+union hidalgo
+union juarez
 ures
 uriangato
 urique
-ursulo galván
+ursulo galvan
 uruachi
 uruapan
-uruapan michoacán
+uruapan michoacan
 uxpanapa
 valerio trujano
 valladolid
@@ -2247,60 +2247,60 @@ vallecillo
 valle de bravo
 valle de chalco solidaridad
 valle de guadalupe
-valle de juárez
+valle de juarez
 valle de santiago
 valle de zaragoza
 valle hermoso
-valparaíso
+valparaiso
 vanegas
 vega de alatorre
 venado
 venustiano carranza
-ver.
+ver
 veracruz
 vetagrande
 vicente guerrero
 victoria
 viesca
 villa aldama
-villa comaltitlán
+villa comaltitlan
 villa corona
 villa corzo
 villa de allende
-villa de álvarez
+villa de alvarez
 villa de arista
 villa de arriaga
-villa de chilapa de díaz
+villa de chilapa de diaz
 villa de cos
 villa de etla
 villa de guadalupe
 villa de la paz
-villa del carbón
+villa del carbon
 villa de ramos
 villa de reyes
-villa de tamazulápam del progreso
+villa de tamazulapam del progreso
 villa de tezontepec
 villa de tututepec de melchor ocampo
 villa de zaachila
-villa díaz ordaz
+villa diaz ordaz
 villaflores
-villa garcía
-villa gonzález ortega
-villagrán
+villa garcia
+villa gonzalez ortega
+villagran
 villa guerrero
 villahermosa 
 villahermosa tabasco
 villa hidalgo
-villa juárez
+villa juarez
 villaldama
 villamar
 villanueva
 villa pesqueira
-villa purificación
+villa purificacion
 villa sola de vega
 villa talea de castro
-villa tejúpam de la unión
-villa unión
+villa tejupam de la union
+villa union
 villa victoria
 vista hermosa
 xalapa
@@ -2308,49 +2308,49 @@ xalapa veracruz
 xalatlaco
 xalisco
 xaloztoc
-xalpatláhuac
+xalpatlahuac
 xaltocan
-xayacatlán de bravo
-xichú
+xayacatlan de bravo
+xichu
 xico
 xicohtzinco
-xicoténcatl
+xicotencatl
 xicotepec
-xicotlán
+xicotlan
 xilitla
 xiutetelco
 xocchel
 xochiapulco
 xochiatipan
-xochicoatlán
-xochihuehuetlán
+xochicoatlan
+xochihuehuetlan
 xochiltepec
 xochimilco
 xochistlahuaca
 xochitepec
-xochitlán de vicente suárez
-xochitlán todos santos
-xonacatlán
+xochitlan de vicente suarez
+xochitlan todos santos
+xonacatlan
 xoxocotla
 yahualica
-yahualica de gonzález gallo
-yajalón
+yahualica de gonzalez gallo
+yajalon
 yanga
-yaonáhuac
+yaonahuac
 yauhquemehcan
 yautepec
-yaxcabá
+yaxcaba
 yaxe
 yaxkukul
 yecapixtla
-yécora
+yecora
 yecuatla
 yehualtepec
-yobaín
+yobain
 yogana
 yucatan
-yucatán
-yurécuaro
+yucatan
+yurecuaro
 yuriria
 yutanduchi de guerrero
 zacapala
@@ -2359,49 +2359,49 @@ zacapu
 zacatecas
 zacatelco
 zacatepec
-zacatlán
+zacatlan
 zacazonapan
 zacoalco de torres
 zacualpan
-zacualtipán de ángeles
+zacualtipan de angeles
 zamora
 zapopan
 zapopan jalisco
 zapotiltic
-zapotitlán
-zapotitlán de méndez
-zapotitlán de vadillo
-zapotitlán lagunas
-zapotitlán palmas
-zapotitlán tablas
-zapotlán de juárez
-zapotlán del rey
+zapotitlan
+zapotitlan de mendez
+zapotitlan de vadillo
+zapotitlan lagunas
+zapotitlan palmas
+zapotitlan tablas
+zapotlan de juarez
+zapotlan del rey
 zapotlanejo
-zapotlán el grande
+zapotlan el grande
 zaragoza
 zautla
 zempoala
 zentla
 zihuatanejo de azueta
 zihuateutla
-ziltlaltépec de trinidad sánchez santos
-zimapán
-zimatlán de álvarez
-zinacantán
+ziltlaltepec de trinidad sanchez santos
+zimapan
+zimatlan de alvarez
+zinacantan
 zinacantepec
 zinacatepec
-zináparo
-zinapécuaro
+zinaparo
+zinapecuaro
 ziracuaretiro
-zirándaro
-zitácuaro
-zitácuaro michoacán
+zirandaro
+zitacuaro
+zitacuaro michoacan
 zitlala
 zongolica
 zongozotla
-zontecomatlán de lópez y fuentes
+zontecomatlan de lopez y fuentes
 zoquiapan
-zoquitlán
+zoquitlan
 zozocolco de hidalgo
-zumpahuacán
+zumpahuacan
 zumpango

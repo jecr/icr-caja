@@ -15,7 +15,7 @@ from textblob.classifiers import NaiveBayesClassifier
 # Asignación del stemmer en español
 stemmer = SnowballStemmer("spanish")
 
-# Creo un diccionario de stopwords a partir de un archivo ubicado en el mismo directorio del script
+# Creo un diccionario de stopwords a partir de un archivo ubicado en directorio util
 stopwords = {}
 archivoStop = open('util/stopwords.txt', 'r')
 for stopw in archivoStop:
@@ -82,20 +82,16 @@ else:
     # ================================================
     # ============ CARGA DE DESCRIPCIONES ============
     # ================================================
-    print('Clasificador no entrenado, entrenando (may take a while)...\nCargando archivos necesarios...\nNormalizando descripciones...')
+    print('Clasificador no entrenado, entrenando (may take a while)...\nCargando archivos necesarios...')
 
     polRuta = 'util/politicos-historico-recuperados.json'  # Archivo de políticos (descripciones)
     medRuta = 'util/medios-historico-recuperados.json'  # Archivo de medios (descripciones)
-    # ciuRuta = 'util/ciudadanos-historico-recuperados.json'  # Archivo de ciudadanos (descripciones)
 
     polArchivo = open(polRuta, 'r')
     politJson = json.load(polArchivo)
 
     medArchivo = open(medRuta, 'r')
     mediosJson = json.load(medArchivo)
-
-    # ciuArchivo = open(ciuRuta, 'r')
-    # ciudadJson = json.load(ciuArchivo)
 
     # Creación de un diccionario con nombres de usuario como keys y descripciones como valores
     polDescripciones = {}
@@ -106,9 +102,7 @@ else:
     for linea in mediosJson:
         medDescripciones[linea['name']] = linea['description'].encode('UTF-8')
 
-    # ciuDescripciones = {}
-    # for linea in ciudadJson:
-    #     ciuDescripciones[linea['name']] = linea['description'].encode('UTF-8')
+    print('Normalizando descripciones...')
 
     # Creación de diccionarios de usuarios = descipciones_normalizadas
     polNormalizados = textNormalization(polDescripciones)
@@ -138,14 +132,12 @@ classifyJson = json.load(f)
 for item in classifyJson:
     porClasificar[item['name']] = item['description'].encode('UTF-8')
 
-print('Texto normalizado.')
-
 clasificaEsto = textNormalization(porClasificar)
 
-# print clasificaEsto
+print('Texto normalizado.')
 
-fPolH = open('util/politicos-historico.txt', 'r')
 historicos = {}
+fPolH = open('util/politicos-historico.txt', 'r')
 for item in fPolH:
     historicos[item.strip()] = 'politico'
 
@@ -162,10 +154,8 @@ for item in clasificaEsto:
         prob_dist = clasificador.prob_classify(clasificaEsto[item])
         if round(prob_dist.prob(prob_dist.max()), 3) == 1:
             clasifSalida[item] = prob_dist.max()
-            # print item + ': ' + prob_dist.max() + ' --- Probabilidad: ' + str(round(prob_dist.prob(prob_dist.max()), 3))
         else:
             clasifSalida[item] = 'ciudadano'
-            # print item + ': ciudadano --- Probabilidad opcional: ' + prob_dist.max() + ' con ' + str(round(prob_dist.prob(prob_dist.max()), 3))
 
 print 'Leyendo lista completa de usuarios...'
 fUserList = open(sys.argv[2], 'r')
