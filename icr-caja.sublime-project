@@ -11,13 +11,7 @@
 			"path": "backend"
 		},
 		{
-			"path": "demo"
-		},
-		{
 			"path": "frontend"
-		},
-		{
-			"path": "util"
 		}
 	]
 }
