@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Administrador de proyectos</title>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
+
 <form action="" method="get">
 	<p>
 		<label for="query">Query:</label>
@@ -24,6 +25,7 @@ if ( (isset($_GET['query']) && isset($_GET['project'])) && ( trim($_GET['query']
 <script>
 	$(document).ready(function(){
 		loaDoc();
+		window.location.replace('index.php');
 	});
 </script>
 
@@ -42,9 +44,34 @@ function loaDoc() {
 	});	
 }
 </script>
-
 <?php
 }
+
+$files = scandir('.');
+echo '<table border="1px">';
+	foreach ($files as $value) {
+		if (strpos($value, '.') > 0){
+			$cosa = explode('.', $value);
+			if ($cosa[1] == 'prj'){
+				$parsedLines = array();
+				$fileLoaded = fopen($value, "r") or die("Archivo inaccesible: " . $value);
+				if ($fileLoaded) {
+					while (($line = fgets($fileLoaded)) !== false) {
+						array_push($parsedLines, $line);
+					}
+				}
+				fclose($fileLoaded);
+				echo "<tr>";
+					echo "<td>" . $parsedLines[0] . "</td>";
+					echo "<td>" . $parsedLines[1] . "</td>";
+					echo '<td><a href="../frontend/index.php?project=' . $parsedLines[1] . '" target="blank">Ver red</a></td>';
+				echo "</tr>";
+			}
+		}
+	}
+echo "</table>";
+
 ?>
+
 </body>
 </html>

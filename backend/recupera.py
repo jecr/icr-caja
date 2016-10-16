@@ -508,7 +508,7 @@ execStart = time.time()
 
 while (time.time() - execStart) < (10):
     try:
-        for page in tweepy.Cursor(api.search, q=search_query, lang="es", count=100, include_entities=True).pages(100):
+        for page in tweepy.Cursor(api.search, q=search_query, lang="es", count=50, include_entities=True).pages(1):
             # Procesamiento de tweets
             for tweet in page:
                 cleanTweet = json.dumps(tweet._json)
@@ -589,7 +589,7 @@ while (time.time() - execStart) < (10):
                     dirVerif = projectTweets + '/' + projectTweets + '_' + currentDate + '.txt'
                     # NUEVOS ARCHIVOS (EN JSON)
                     archivoTweets = projectTweets + '/' + projectTweets + '_' + currentDate + '.json'
-                    archivoViz = projectTweets + '/' + projectTweets + '_' + currentDate + '_vis.json'
+                    archivoViz = projectTweets + '/' + projectTweets + '_network_vis.json'
 
                     # (USUARIOS) Si el archivo no existe, lo crea
                     usrDirVerif = projectTweets + '/' + projectTweets + '_' + currentDate + '_users.txt'

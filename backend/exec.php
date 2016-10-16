@@ -3,9 +3,14 @@ ini_set('max_execution_time', 0);
 
 if ( (isset($_GET['query']) && isset($_GET['project'])) && ( trim($_GET['query']) != '' && trim($_GET['project']) != '' ) ) {
 
+
 	// Obtiene los datos de las cajas de input
 	$theQuery = trim($_GET['query']);
 	$theProject = trim($_GET['project']);
+
+	$file = fopen($theProject . '.prj', "w");
+	fwrite($file,$theQuery . "\n" . $theProject);
+	fclose($file);
 
 	// Comprueba si hay espacios en la cadena, de haberlos, encierra el texto entre comillas para agruparlo
 	if (strpos($theQuery, ' ') !== false) {

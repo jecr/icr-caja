@@ -1,9 +1,19 @@
+<?php
+if (!isset($_GET['project'])) {
+    echo 'PROYECTO INDEFINIDO<br>';
+    echo '<a href="../backend/">Volver</a>';
+} else { ?>
+<script>
+<?php
+echo 'var proyecto = "' . $_GET['project'] . '";';
+?>
+</script>
 <!DOCTYPE html>
 <html lang="es">
     <meta charset="utf-8">
 
     <head>
-        <title>Grafo ComPol Twitter</title>
+        <title>Grafo <?php echo strtoupper($_GET['project']); ?></title>
         
         <link rel="stylesheet" type="text/css"
             href="http://getbootstrap.com/dist/css/bootstrap.css">
@@ -163,3 +173,4 @@
     </body>
 
 </html>
+<?php } ?>

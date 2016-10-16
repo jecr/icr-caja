@@ -1,4 +1,4 @@
-d3.json("../backend/ztest/ztest_Oct-16-2016_vis.json", function(data) {
+d3.json("../backend/" + proyecto + "/" + proyecto + "_network_vis.json", function(data) {
 
 
     /*======================================================================
