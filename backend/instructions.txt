@@ -8,6 +8,7 @@ NLTK
 	easy_install nltk
 Textblob corpora
 	python -m textblob.download_corpora
+	Nota: al parecer la ejecución web requiere de la instalación del corpus de nltk, para esto, es necesario acceder a install.php, el script se ejecutará y habrá un resúmen del log en install.log
 
 Nota D3: Cambiar en graphCode.js el nombre de archivo al pertinente (Por ahora)
 

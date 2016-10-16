@@ -27,14 +27,6 @@ if ( (isset($_GET['query']) && isset($_GET['project'])) && ( trim($_GET['query']
 	});
 </script>
 
-<?php
-}
-?>
-
-<?php
-// popen('python recupera.py pokemon pokemon', 'r');
-// exec('python recupera.py pokemon pokemon');
-?>
 
 <script>
 function loaDoc() {
@@ -51,5 +43,8 @@ function loaDoc() {
 }
 </script>
 
+<?php
+}
+?>
 </body>
 </html>

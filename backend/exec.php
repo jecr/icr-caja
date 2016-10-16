@@ -1,4 +1,6 @@
 <?php
+ini_set('max_execution_time', 0);
+
 if ( (isset($_GET['query']) && isset($_GET['project'])) && ( trim($_GET['query']) != '' && trim($_GET['project']) != '' ) ) {
 
 	// Obtiene los datos de las cajas de input

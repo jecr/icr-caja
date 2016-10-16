@@ -358,6 +358,11 @@ def locSimilarity(thisLocation):
 # ====== RECUPERADOR DE CONVERSACIONES ======
 # ===========================================
 
+# Recuperación de conversación sobre este tweet: REQUIERE DE MEJORAS, COMPLEMENTAR EN ACTUALIZACIÓN POSTERIOR
+# if getConversation(toUser, toUserStId, api) == 'newKeyNeeded':
+#     claveActualIndex = keySwitch(claveActualIndex)  # Genera un nuevo índice de clave
+#     api = tweepy.API(conexion(claveActualIndex))  # Conexión usando nueva clave
+
 def getConversation(theUser, theUserTweetId, theApi):
     cadenaBusqueda = 'to:' + theUser
     try:
@@ -455,6 +460,7 @@ api = tweepy.API(conexion(claveActualIndex))  # Conexión usando nueva clave
 # Selección de aplicación para recuperación
 search_query = sys.argv[1]  # Término(s) de búsqueda
 projectTweets = sys.argv[2]  # Nombre del proyecto
+# minutero = sys.argv[3] # Tiempo de ejecuci1n = 1
 
 # Comprueba la existencia del directorio
 if not os.path.exists(projectTweets):
@@ -500,7 +506,7 @@ acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u', 'à': 'a', 'è
 
 execStart = time.time()
 
-while (time.time() - execStart) < (60*60):
+while (time.time() - execStart) < (10):
     try:
         for page in tweepy.Cursor(api.search, q=search_query, lang="es", count=100, include_entities=True).pages(100):
             # Procesamiento de tweets
@@ -787,7 +793,7 @@ while (time.time() - execStart) < (60*60):
                             for linea in currentFile:
                                 currJsonIn = json.loads(linea)
                                 dictIds[currJsonIn['id']] = ''
-                                
+
                             currentFile.close()  # Cierra el archivo del cual creó el diccionario
 
                         # Comprueba la existencia del ID
