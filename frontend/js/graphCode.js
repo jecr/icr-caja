@@ -1,4 +1,4 @@
-d3.json("data/oaxaca_Jun192016_filtro_preprocesado.json", function(data) {
+d3.json("../backend/ztest/ztest_Oct-16-2016_vis.json", function(data) {
 
 
     /*======================================================================

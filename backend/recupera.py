@@ -13,6 +13,107 @@ import tweepy
 # ====== CLASIFICACIÓN DE USUARIOS ======
 # =======================================
 
+def getInD(item):  # Mini-función para el ordenado de elementos
+    return item['inDegree']
+
+def preprocesa(workingLinks):
+
+    preNodes = []
+
+    for item in workingLinks:
+        preNodes.append(item['source'])
+        preNodes.append(item['target'])
+
+    preNodes = list(set(preNodes))
+
+    nodes = []
+    for item in preNodes:
+        nodo = {}
+        nodo['index'] = preNodes.index(item)
+        nodo['name'] = item
+        if item in handlersAlmacenados:
+            nodo['class'] = handlersAlmacenados[item]
+        else:
+            nodo['class'] = 'Error'
+        nodes.append(nodo)
+
+    for item in nodes:
+        item['inDegree'] = 0
+        for subitem in workingLinks:
+            if item['name'] == subitem['target']:
+                item['inDegree'] += 1
+
+    nodes.sort(key=getInD, reverse=True)
+
+    topNodes = []
+    rangeMax = 0
+    if len(nodes) < 30:
+        rangeMax = len(nodes)
+    else:
+        rangeMax = 30
+
+    for x in xrange(0, rangeMax):
+        topNodes.append(nodes[x])
+
+    for item in nodes:
+        if item['inDegree'] > 15 and item['class'] == 'politico':
+            topNodes.append(item)
+        if item['inDegree'] > 50 and item['class'] == 'medio':
+            topNodes.append(item)
+
+    linkedByIndex = {}
+    for item in workingLinks:
+        linkedByIndex[item['source'] + ',' + item['target']] = ''
+
+    adjacencyListTotal = {}  # {nombre = [a, b, c]}
+    for item in nodes:
+        neighborhood = []
+        for subitem in nodes:
+            if item['name'] + ',' + subitem['name'] in linkedByIndex or subitem['name'] + ',' + item['name'] in linkedByIndex and item['name'] != subitem['name']:
+                neighborhood.append(subitem['name'])
+        adjacencyListTotal[item['name']] = neighborhood
+
+    preNodeSample = []
+    nodeSample = []
+    for item in topNodes:
+        preNodeSample.append(item['name'])
+        for subitem in adjacencyListTotal[item['name']]:
+            preNodeSample.append(subitem)
+
+    preNodeSample = list(set(preNodeSample))
+
+    for item in nodes:
+        for subitem in preNodeSample:
+            if item['name'] == subitem:
+                nodeSample.append(item)
+
+    adjacencyList = {}
+    for item in nodeSample:
+        neighborhood = []
+        for subitem in nodeSample:
+            if item['name'] + ',' + subitem['name'] in linkedByIndex or subitem['name'] + ',' + item['name'] in linkedByIndex and item['name'] != subitem['name']:
+                neighborhood.append(subitem['name'])
+        adjacencyList[item['name']] = neighborhood
+
+    totalInteractions = []
+    for item in adjacencyList:
+        for subitem in adjacencyList[item]:
+            for subsubitem in workingLinks:
+                if subsubitem['source'] == item and subsubitem['target'] == subitem:
+                    totalInteractions.append(subsubitem)
+
+    salidaArchivo = {}
+    salidaArchivo['nodes'] = nodes
+    salidaArchivo['links'] = workingLinks
+    salidaArchivo['node_sample'] = nodeSample
+    salidaArchivo['total_interactions'] = totalInteractions
+
+    return salidaArchivo
+
+# =======================================
+# ====== CLASIFICACIÓN DE USUARIOS ======
+# =======================================
+
 # ============== UTILIDADES ================
 
 # Asignación del stemmer en español
@@ -93,9 +194,9 @@ if os.path.isfile('util/clasificador.pickle'):
     f.close()
     print('Clasificador cargado :D')
 else:
-    # ================================================
-    # ============ CARGA DE DESCRIPCIONES ============
-    # ================================================
+    # =============================================================
+    # ============ CARGA DE DESCRIPCIONES DE HISTÓRICO ============
+    # =============================================================
     print('Clasificador no entrenado, entrenando (may take a while)...\nCargando archivos necesarios...')
 
     polRuta = 'util/politicos-historico-recuperados.json'  # Archivo de políticos (descripciones)
@@ -138,6 +239,38 @@ else:
     f.close()
     print('Clasificador entrenado :D\n')
 
+# ========================================================
+# ====== CARGA DE ARCHIVO HISTÓRICO PRE-CLASIFICADO ======
+# ========================================================
+
+historicos = {}
+fPolH = open('util/politicos-historico.txt', 'r')
+for item in fPolH:
+    historicos[item.strip()] = 'politico'
+
+fMedH = open('util/medios-historico.txt', 'r')
+for item in fMedH:
+    historicos[item.strip()] = 'medio'
+
+print 'Histórico pre-clasificado cargado'
+
+# ==============================================================
+# ====== CLASIFICACIÓN DE USUARIO ÚNICO (UNA DESCRIPCIÓN) ======
+# ==============================================================
+
+def clasifica(userMeta):
+    clasifSalida = {}
+    if userMeta['handler'] in historicos:
+        clasifSalida['clase'] = historicos[userMeta['handler']]
+    else:
+        prob_dist = clasificador.prob_classify(singleNormalisation(userMeta['description']))
+        if round(prob_dist.prob(prob_dist.max()), 3) == 1:
+            clasifSalida['clase'] = prob_dist.max()
+        else:
+            clasifSalida['clase'] = 'ciudadano'
+
+    return clasifSalida['clase']
+
 # ===========================================
 # ====== RECUPERACIÓN DE DESCRIPCIONES ======
 # ===========================================
@@ -179,7 +312,7 @@ def locSimilarity(thisLocation):
             cadena = thisLocation
             comp = item
             coincide = ''
-            minimo_coinc = 70
+            minimo_coinc = 90
 
             similarity = {}
 
@@ -346,6 +479,12 @@ usrsAlmacenar = []
 idsAlmacenadas = {}
 handlersAlmacenados = {}
 
+# =======================================
+# ====== LISTAS, DICTS, DEFINITIOS ======
+# =======================================
+
+links = []
+
 # Fuentes de publicación confiables, para la reducción de bots
 trustedSources = {}
 trustedSources['<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>'] = ''
@@ -361,7 +500,7 @@ acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u', 'à': 'a', 'è
 
 execStart = time.time()
 
-while (time.time() - execStart) < (60*10):
+while (time.time() - execStart) < (60*60):
     try:
         for page in tweepy.Cursor(api.search, q=search_query, lang="es", count=100, include_entities=True).pages(100):
             # Procesamiento de tweets
@@ -374,7 +513,7 @@ while (time.time() - execStart) < (60*10):
                 # IDENTIFICACIÓN DE TIPO DE PUBLICACIÓN
                 # RETWEET
                 if 'retweeted_status' in jsondTweet:
-                    if jsondTweet['user']['screen_name'] != jsondTweet['retweeted_status']['user']['screen_name']:
+                    if jsondTweet['user']['screen_name'].lower() != jsondTweet['retweeted_status']['user']['screen_name'].lower():
                         tweetStatus['rt'] = 1
                     else:
                         tweetStatus['rt'] = 0
@@ -382,14 +521,14 @@ while (time.time() - execStart) < (60*10):
                     tweetStatus['rt'] = 0
 
                 # REPLY
-                if jsondTweet['in_reply_to_status_id'] != None and jsondTweet['user']['screen_name'] != jsondTweet['in_reply_to_screen_name']:
+                if jsondTweet['in_reply_to_status_id'] != None and jsondTweet['user']['screen_name'].lower() != jsondTweet['in_reply_to_screen_name'].lower():
                     tweetStatus['rp'] = 1
                 else:
                     tweetStatus['rp'] = 0
 
                 # MENTION
                 if jsondTweet['entities']['user_mentions'] != [] and not 'retweeted_status' in jsondTweet and jsondTweet['in_reply_to_status_id'] == None:
-                    if len(jsondTweet['entities']['user_mentions']) == 1 and jsondTweet['entities']['user_mentions'][0]['screen_name'] != jsondTweet['user']['screen_name']:
+                    if len(jsondTweet['entities']['user_mentions']) == 1 and jsondTweet['entities']['user_mentions'][0]['screen_name'].lower() != jsondTweet['user']['screen_name'].lower():
                         tweetStatus['mn'] = 1
                     else:
                         tweetStatus['mn'] = 0    
@@ -444,6 +583,7 @@ while (time.time() - execStart) < (60*10):
                     dirVerif = projectTweets + '/' + projectTweets + '_' + currentDate + '.txt'
                     # NUEVOS ARCHIVOS (EN JSON)
                     archivoTweets = projectTweets + '/' + projectTweets + '_' + currentDate + '.json'
+                    archivoViz = projectTweets + '/' + projectTweets + '_' + currentDate + '_vis.json'
 
                     # (USUARIOS) Si el archivo no existe, lo crea
                     usrDirVerif = projectTweets + '/' + projectTweets + '_' + currentDate + '_users.txt'
@@ -452,28 +592,29 @@ while (time.time() - execStart) < (60*10):
                     emisorDesc = jsondTweet['user']['description'].encode('UTF-8')
                     emisorDesc = emisorDesc.replace('\n', '').replace('\r', '')
                     emisorDesc = ' '.join(emisorDesc.split())  # Separación - unión para remover espacios de más
-                    emisorName = jsondTweet['user']['screen_name'].encode('UTF-8').replace('\n', '').replace('\r', '')
+                    emisorName = jsondTweet['user']['screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
                     emisorLoc = jsondTweet['user']['location'].encode('UTF-8').replace('\n', '').replace('\r', '')
                     emisorLoc = ' '.join(emisorLoc.split())  # Separación - unión para remover espacios de más
 
                     # RE-ARRANGEMENT OF METADATA
-                    meta_tweet = {}  # Metadatos para tweet
-                    meta_screen_name = jsondTweet['user']['screen_name'].encode('UTF-8').replace('\n', '').replace('\r', '')
+                    # Metadatos para cada tweet
+                    meta_tweet = {}
+                    meta_screen_name = jsondTweet['user']['screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
                     meta_screen_name = ' '.join(meta_screen_name.split())
 
                     if tweetStatus['rt'] == 1:
-                        meta_tweet['int_type'] = 'rt'
+                        meta_tweet['int_type'] = 'retweet'
                     if tweetStatus['rp'] == 1:
-                        meta_tweet['int_type'] = 'rp'
+                        meta_tweet['int_type'] = 'reply'
                     if tweetStatus['mn'] == 1:
-                        meta_tweet['int_type'] = 'mn'
+                        meta_tweet['int_type'] = 'mention'
 
                     meta_tweet['screen_name'] = meta_screen_name
 
                     meta_tweet['id'] = jsondTweet['id']
 
                     if jsondTweet['in_reply_to_screen_name'] != None:
-                        meta_in_reply_to_screen_name = jsondTweet['in_reply_to_screen_name'].encode('UTF-8').replace('\n', '').replace('\r', '')
+                        meta_in_reply_to_screen_name = jsondTweet['in_reply_to_screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
                         meta_in_reply_to_screen_name = ' '.join(meta_in_reply_to_screen_name.split())
                         meta_tweet['in_reply_to_screen_name'] = meta_in_reply_to_screen_name
                     else:
@@ -500,7 +641,7 @@ while (time.time() - execStart) < (60*10):
                         meta_mentions_list = []
                         for item in jsondTweet['entities']['user_mentions']:
                             meta_mention = ''
-                            meta_mention = item['screen_name'].encode('UTF-8').replace('\n', '').replace('\r', '')
+                            meta_mention = item['screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
                             meta_mention = ' '.join(meta_mention.split())
                             meta_mentions_list.append(meta_mention)
                         meta_tweet['user_mentions'] = meta_mentions_list
@@ -508,39 +649,43 @@ while (time.time() - execStart) < (60*10):
                         meta_tweet['user_mentions'] = 'empty'
 
                     meta_tweet['created_at'] = currentDate
-                    
+                    # Fin de asignación de metadatos a meta_tweet
 
-
-                    # Metadatos de destinatarios, por interacción
-                    # RETWEET
-                    destina_meta = {}
-                    if meta_tweet['int_type'] == 'rt':
-                        destina_meta['handler'] = jsondTweet['retweeted_status']['user']['screen_name'].encode('UTF-8').replace('\n', '').replace('\r', '')
-                        destina_meta['description'] = jsondTweet['retweeted_status']['user']['description'].encode('UTF-8').replace('\n', '').replace('\r', '')
-                        destina_meta['description'] = ' '.join(destina_meta['description'].split())  # Separación - unión para remover espacios de más
-                        destina_meta['location'] = jsondTweet['retweeted_status']['user']['location'].encode('UTF-8').replace('\n', '').replace('\r', '')
-                        destina_meta['location'] = ' '.join(destina_meta['location'].split())  # Separación - unión para remover espacios de más
-                    # REPLY
-                    if meta_tweet['int_type'] == 'rp':
-                        destina_meta['handler'] = jsondTweet['in_reply_to_screen_name'].encode('UTF-8').replace('\n', '').replace('\r', '')
-                        userMeta = recuperaUsuario(destina_meta['handler'])
-                        destina_meta['description'] = userMeta['description']
-                        destina_meta['location'] = userMeta['location']
-                    # MENTION
-                    if meta_tweet['int_type'] == 'mn':
-                        for item in jsondTweet['entities']['user_mentions']:
-                            destina_meta['handler'] = item['screen_name'].encode('UTF-8').replace('\n', '').replace('\r', '')
-                            userMeta = recuperaUsuario(destina_meta['handler'])
-                            destina_meta['description'] = userMeta['description']
-                            destina_meta['location'] = userMeta['location']
-
-                    handlersList.append(destina_meta)  # Agrega a la lista de usuarios de este tweet los implicados (sólo es posible un tipo de interacción por tweet)
-
+                    # Metadatos de emisor                    
                     emisor_meta = {}  # Metadatos para descripción de emisor
                     emisor_meta['handler'] = emisorName
                     emisor_meta['description'] = emisorDesc
                     emisor_meta['location'] = emisorLoc
+                    emisor_meta['class'] = clasifica(emisor_meta)
                     handlersList.append(emisor_meta)
+
+                    # Metadatos de destinatarios, por interacción
+                    # RETWEET
+                    destina_meta = {}
+                    if meta_tweet['int_type'] == 'retweet':
+                        destina_meta['handler'] = jsondTweet['retweeted_status']['user']['screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
+                        destina_meta['description'] = jsondTweet['retweeted_status']['user']['description'].encode('UTF-8').replace('\n', '').replace('\r', '')
+                        destina_meta['description'] = ' '.join(destina_meta['description'].split())  # Separación - unión para remover espacios de más
+                        destina_meta['location'] = jsondTweet['retweeted_status']['user']['location'].encode('UTF-8').replace('\n', '').replace('\r', '')
+                        destina_meta['location'] = ' '.join(destina_meta['location'].split())  # Separación - unión para remover espacios de más
+                        destina_meta['class'] = clasifica(destina_meta)
+                    # REPLY
+                    if meta_tweet['int_type'] == 'reply':
+                        destina_meta['handler'] = jsondTweet['in_reply_to_screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
+                        userMeta = recuperaUsuario(destina_meta['handler'])
+                        destina_meta['description'] = userMeta['description']
+                        destina_meta['location'] = userMeta['location']
+                        destina_meta['class'] = clasifica(destina_meta)
+                    # MENTION
+                    if meta_tweet['int_type'] == 'mention':
+                        for item in jsondTweet['entities']['user_mentions']:
+                            destina_meta['handler'] = item['screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
+                            userMeta = recuperaUsuario(destina_meta['handler'])
+                            destina_meta['description'] = userMeta['description']
+                            destina_meta['location'] = userMeta['location']
+                            destina_meta['class'] = clasifica(destina_meta)
+
+                    handlersList.append(destina_meta)  # Agrega a la lista de usuarios de este tweet los implicados (sólo es posible un tipo de interacción por tweet)
                     # ENDS REARRANGEMENT
 
                     if not os.path.isfile(dirVerif):
@@ -550,13 +695,27 @@ while (time.time() - execStart) < (60*10):
                             tweetsAlmacenados['tweets'] = tweetsAlmacenar  # Genera el arreglo a exportar
                             
                             for item in handlersList:  # Si el tweet no se va a guardar, no hay razón para almacenar al usuario, hence the indent
+                                
+                                # Si el tweet fue aprovado, el proceso llega a este punto. Aquí, recorre los destinatarios para generar una interacción por cada ocurrencia
+                                # Genera metadatos de enlace
+                                enlaceActual = {}
+                                enlaceActual['source'] = emisor_meta['handler']
+                                enlaceActual['target'] = destina_meta['handler']
+                                enlaceActual['interaction'] = meta_tweet['int_type']
+                                enlaceActual['retuits'] = 1
+                                links.append(enlaceActual)  # Añade la interacción a la lista de enlaces
+
                                 if not item['handler'] in handlersAlmacenados:  # Verificación de pre-existencia (USR)
                                     usrsAlmacenar.append(item)
-                                    handlersAlmacenados[item['handler']] = ''
+                                    handlersAlmacenados[item['handler']] = item['class']
                                     tweetsAlmacenados['users'] = usrsAlmacenar  # Genera el arreglo a exportar
 
                             with open(archivoTweets, 'w') as f:  # Sólo actualiza el archivo si el tweet no existía previamente
                                 json.dump(tweetsAlmacenados, f, indent=4, ensure_ascii=False)
+
+                            # Archivo para visualización:
+                            with open(archivoViz, 'w') as f:
+                                json.dump(preprocesa(links), f, indent=4, ensure_ascii=False)
 
                         execStatus['continue'] = 1
 
@@ -573,7 +732,7 @@ while (time.time() - execStart) < (60*10):
                                 item['text'] = item['text'].encode('UTF-8')
                                 tweetsAlmacenar.append(item)
                             for item in fTweets['users']:  # Recorre y almacena handlers en dict
-                                handlersAlmacenados[item['handler'].encode('UTF-8')] = ''
+                                handlersAlmacenados[item['handler'].encode('UTF-8')] = item['class']
                                 item['description'] = item['description'].encode('UTF-8')
                                 item['location'] = item['location'].encode('UTF-8')
                                 usrsAlmacenar.append(item)
@@ -581,15 +740,28 @@ while (time.time() - execStart) < (60*10):
                             tweetsAlmacenar.append(meta_tweet)
                             idsAlmacenadas[meta_tweet['id']] = ''
                             tweetsAlmacenados['tweets'] = tweetsAlmacenar  # Genera el arreglo a exportar
-                        
+
                             for item in handlersList:  # Si el tweet no se va a guardar, no hay razón para almacenar al usuario, hence the indent
+                                
+                                # Genera metadatos de enlace
+                                enlaceActual = {}
+                                enlaceActual['source'] = emisor_meta['handler']
+                                enlaceActual['target'] = destina_meta['handler']
+                                enlaceActual['interaction'] = meta_tweet['int_type']
+                                enlaceActual['retuits'] = 1
+                                links.append(enlaceActual)  # Añade la interacción a la lista de enlaces 
+
                                 if not item['handler'] in handlersAlmacenados:  # Verificación de pre-existencia (USR)
                                     usrsAlmacenar.append(item)
-                                    handlersAlmacenados[item['handler']] = ''
+                                    handlersAlmacenados[item['handler']] = item['class']
                                     tweetsAlmacenados['users'] = usrsAlmacenar  # Genera el arreglo a exportar
                         
                             with open(archivoTweets, 'w') as f:
                                 json.dump(tweetsAlmacenados, f, indent=4, ensure_ascii=False)
+
+                            # Archivo para visualización:
+                            with open(archivoViz, 'w') as f:
+                                json.dump(preprocesa(links), f, indent=4, ensure_ascii=False)
 
                     # DEPRECATED (BUT STILL USEFUL !!!!!!!!!!!!!!!!!!!1)
                     if not os.path.isfile(dirVerif):

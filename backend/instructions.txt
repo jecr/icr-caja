@@ -1,7 +1,7 @@
 Proceso para la generación de la visualización de un evento:
 
 Requisitos:
-Python 2.6 ^
+Python 2.7 ^
 Tweepy
 	Instalación en windows: easy_install tweepy
 NLTK
@@ -14,5 +14,3 @@ Textblob corpora
 	Nota 1: Los términos de búsqueda aceptan operadores AND y OR.
 	Nota 2: Si la cadena de términos incluye espacios, es necesario agruparla entre comillas ""
 	Nota 3: Los términos agrupados mediante operadores deben estar agrupados entre comillas "", si se incluyen muchos grupos de términos, es necesario escapar las comillas ""\Ejemplo de grupo"\ OR termino"
-
-2. 
