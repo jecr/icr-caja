@@ -773,10 +773,6 @@ while (time.time() - execStart) < (60*60):
                         currentFile.write('\n')
                         dictIds[jsondTweet['id']] = ''
                         
-                        # Recuperación de conversación sobre este tweet:
-                        if getConversation(toUser, toUserStId, api) == 'newKeyNeeded':
-                            claveActualIndex = keySwitch(claveActualIndex)  # Genera un nuevo índice de clave
-                            api = tweepy.API(conexion(claveActualIndex))  # Conexión usando nueva clave
                         currentFile.close()  # Cierra el archivo tras la escritura
                     else:
 
@@ -791,14 +787,8 @@ while (time.time() - execStart) < (60*60):
                             for linea in currentFile:
                                 currJsonIn = json.loads(linea)
                                 dictIds[currJsonIn['id']] = ''
+                                
                             currentFile.close()  # Cierra el archivo del cual creó el diccionario
-
-                            # Repite el proceso para el archivo de usuarios
-                            currentUsrFile = open(usrDirVerif, 'r')
-                            usrHandlers = {}
-                            for linea in currentUsrFile:
-                                usrHandlers[linea] = ''
-                            currentUsrFile.close()
 
                         # Comprueba la existencia del ID
                         if not jsondTweet['id'] in dictIds:
@@ -809,31 +799,8 @@ while (time.time() - execStart) < (60*60):
                             currentFile.write(cleanTweet)
                             currentFile.write('\n')
                             dictIds[jsondTweet['id']] = ''
-                            # Recuperación de conversación sobre este tweet:
-                            if getConversation(toUser, toUserStId, api) == 'newKeyNeeded':
-                                claveActualIndex = keySwitch(claveActualIndex)  # Genera un nuevo índice de clave
-                                api = tweepy.API(conexion(claveActualIndex))  # Conexión usando nueva clave
+
                             currentFile.close()  # Cierra el archivo tras la escritura
-
-                    # LISTA DE USUARIOS
-                    if not os.path.isfile(usrDirVerif):
-                        currentUsrFile = open(usrDirVerif, 'w')
-                        # Escribe la linea, luego cierra el archivo
-                        currentUsrFile.write(emisorName + ': ' + emisorDesc)
-                        currentUsrFile.write('\n')
-                        usrHandlers[emisorName] = ''
-                        currentUsrFile.close()  # Cierra el archivo tras la escritura
-                    else:
-                        # Comprueba la existencia del ID
-                        if not emisorName in usrHandlers:  # NOTA, MIGRAR A JSON PORQUE NO PODEMOS HACER LA DETECCIÓN DE EXISTENCIA DE OTRA MANERA
-                            # Abre archivo para edición
-                            currentUsrFile = open(usrDirVerif, 'a')
-
-                            # Escribe la linea, luego cierra el archivo
-                            currentUsrFile.write(emisorName + ': ' + emisorDesc)
-                            currentUsrFile.write('\n')
-                            usrHandlers[emisorName] = ''
-                            currentUsrFile.close()  # Cierra el archivo tras la escritura
             
             # Fin consulta de límite
             if consultasRestantes() < 1:

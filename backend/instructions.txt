@@ -9,6 +9,7 @@ NLTK
 Textblob corpora
 	python -m textblob.download_corpora
 
+
 1. Ejecución de recupera.py:
 	python recupera.py [términos_de_búsqueda] [nombre_de_proyecto]
 	Nota 1: Los términos de búsqueda aceptan operadores AND y OR.
