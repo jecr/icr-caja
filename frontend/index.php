@@ -5,7 +5,9 @@ if (!isset($_GET['project'])) {
 } else { ?>
 <script>
 <?php
-echo 'var proyecto = "' . $_GET['project'] . '";';
+$projectName = $_GET['project'];
+$projectName = str_replace(' ', '_', $projectName);
+echo 'var proyecto = "' . $projectName . '";';
 ?>
 </script>
 <!DOCTYPE html>
