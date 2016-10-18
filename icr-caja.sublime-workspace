@@ -4,16 +4,236 @@
 		"selected_items":
 		[
 			[
+				"arr",
+				"array"
+			],
+			[
+				"file",
+				"fileLoaded"
+			],
+			[
+				"fget",
+				"fgets"
+			],
+			[
+				"fil",
+				"fileLoaded"
+			],
+			[
+				"echo",
+				"echo\techo \"…\""
+			],
+			[
+				"th",
+				"theProject"
+			],
+			[
+				"archi",
+				"archivoViz"
+			],
+			[
+				"no",
+				"nodes"
+			],
+			[
+				"range",
+				"rangeMax"
+			],
+			[
+				"han",
+				"handlersAlmacenados"
+			],
+			[
+				"lin",
+				"links"
+			],
+			[
+				"enlac",
+				"enlaceActual"
+			],
+			[
+				"clasi",
+				"clasifica"
+			],
+			[
+				"sin",
+				"singleNormalisation"
+			],
+			[
+				"emi",
+				"emisorLoc"
+			],
+			[
+				"hand",
+				"handlersList"
+			],
+			[
+				"desc",
+				"descriptionRecovered"
+			],
+			[
+				"des",
+				"descriptionRecovered"
+			],
+			[
+				"det",
+				"destina_meta"
+			],
+			[
+				"recupe",
+				"recuperaDescripcion"
+			],
+			[
+				"destin",
+				"destina_meta"
+			],
+			[
+				"hadn",
+				"handlersAlmacenados"
+			],
+			[
+				"en",
+				"encode"
+			],
+			[
+				"handl",
+				"handlersAlmacenados"
+			],
+			[
+				"twee",
+				"tweetsAlmacenar"
+			],
+			[
+				"twe",
+				"tweetsAlmacenar"
+			],
+			[
+				"tw",
+				"tweetsAlmacenados"
+			],
+			[
+				"emiso",
+				"emisor_meta"
+			],
+			[
+				"usr",
+				"usrsAlmacenar"
+			],
+			[
+				"id",
+				"idsAlmacenadas"
+			],
+			[
+				"arch",
+				"archivoTweets"
+			],
+			[
+				"cu",
+				"currentDate"
+			],
+			[
+				"pro",
+				"projectTweets"
+			],
+			[
+				"loca",
+				"locSimilarity"
+			],
+			[
+				"locs",
+				"locSimilarity"
+			],
+			[
+				"lu",
+				"lugaresMx"
+			],
+			[
+				"ar",
+				"archivoLugares"
+			],
+			[
+				"met",
+				"meta_tweet"
+			],
+			[
+				"meta",
+				"meta_tweet"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"au",
+				"autorDesc"
+			],
+			[
+				"is",
+				"isRet"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"el",
+				"el_retweet"
+			],
+			[
+				"tr",
+				"try\tTry/Except"
+			],
+			[
+				"json",
+				"jsondTweet"
+			],
+			[
+				"the",
+				"theProject"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"t",
+				"theProject"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"get_",
+				"get_class"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"fo",
+				"for\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"ech",
+				"echo\techo \"…\""
+			],
+			[
 				"in",
 				"inline"
 			],
 			[
 				"ma",
 				"margin"
-			],
-			[
-				"the",
-				"the_popup"
 			],
 			[
 				"rg",
@@ -26,10 +246,6 @@
 			[
 				"min",
 				"min-height"
-			],
-			[
-				"el",
-				"elVideo"
 			],
 			[
 				"data-",
@@ -56,16 +272,8 @@
 				"post_slug"
 			],
 			[
-				"echo",
-				"echo"
-			],
-			[
 				"J",
 				"jQuery"
-			],
-			[
-				"ech",
-				"echo"
 			],
 			[
 				"slid",
@@ -78,10 +286,6 @@
 			[
 				"al",
 				"text-align"
-			],
-			[
-				"ac",
-				"actual_page"
 			],
 			[
 				"max",
@@ -102,10 +306,6 @@
 			[
 				"u",
 				"url_foto"
-			],
-			[
-				"if",
-				"if	if …"
 			],
 			[
 				"img",
@@ -130,10 +330,6 @@
 			[
 				"bord",
 				"border-box"
-			],
-			[
-				"no",
-				"no-repeat"
 			],
 			[
 				"fon",
@@ -204,10 +400,6 @@
 				"slideToggle"
 			],
 			[
-				"t",
-				"text-top"
-			],
-			[
 				"cont",
 				"cont_preg"
 			],
@@ -225,11 +417,7 @@
 			],
 			[
 				"for",
-				"foreach	foreach …"
-			],
-			[
-				"_",
-				"_POST"
+				"foreach\tforeach …"
 			],
 			[
 				"bore",
@@ -276,7 +464,7 @@
 	"command_palette":
 	{
 		"height": 588.0,
-		"last_filter": "Package Control: ",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -305,9 +493,69 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/trump"
 	],
 	"file_history":
 	[
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/trump/trump_Oct-17-2016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/trump/trump_Oct-17-2016.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/.gitignore",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/trump/trump_network_vis.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/recupera.py",
+		"/C/Users/vjdar/AppData/Local/Temp/fz3temp-1/page-landing.php",
+		"/C/wamp64/bin/apache/apache2.4.23/conf/extra/httpd-vhosts.conf",
+		"/C/wamp64/alias/GitHub.conf",
+		"/C/wamp64/bin/apache/apache2.4.23/conf/httpd.conf",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/exec.php",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/kill.php",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/frontend/js/graphCode.js",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/index.php",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/frontend/index.php",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/trump/trump_Oct-16-2016.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/another_test/another_test_Oct-16-2016.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest.log",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/ztest_Oct-16-2016.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/ztest_Oct-16-2016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/ztest_Oct-16-2016_vis.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/instructions.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/install.php",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/install.log",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/install.php",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/preprocesa.py",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/clasifica_naive.py",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/ztest_Oct-15-2016.json",
+		"/C/Users/vjdar/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Aaron/oaxaca_Jun192016_filtro.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/log",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/ztest_Oct-15-2016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/SiMiCelularHablara/SiMiCelularHablara_Oct-15-2016.json",
+		"/C/Users/vjdar/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Preprocesado/oaxaca_Jun202016_filtro_preprocesado.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/descripcion_recupera.py",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/SiMiCelularHablara/SiMiCelularHablara_Oct142016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/SiMiCelularHablara/SiMiCelularHablara_Oct-15-2016_users.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/util/locationsmx.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/pokemon/pokemon_Oct152016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/SiMiCelularHablara/SiMiCelularHablara_Oct152016_users.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/SiMiCelularHablara/SiMiCelularHablara_Oct152016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/pokemon/pokemon_Oct142016.txt",
+		"/C/Users/vjdar/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/LISTAS/lugaresMX.txt",
+		"/C/Users/vjdar/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/first_attempts/similarity_score.py",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/rueba.py",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/ztest_Oct142016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/ztest/ztest_Oct132016.txt",
+		"/C/Users/vjdar/Google Drive/MADIC/Tesis/Eventos/Oaxaca/Preprocesado/oaxaca_25-27_preprocesado.json",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/pokemon/pokemon_Oct142016_users.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/muertos/muertos_Oct132016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/pokemon/pokemon_Oct132016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/hoy_no_circula/query.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/prueba/prueba_Oct122016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/hola.py",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/pokemon.log",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/la_tina.log",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/arnold.log",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/pokemon/pokemon_Oct122016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/pokemon/pokemon_Oct112016.txt",
+		"/C/Users/vjdar/Documents/GitHub/icr-caja/backend/trump/trump_Oct102016.txt",
 		"/Users/vjdarr/Downloads/robots.txt",
 		"/Users/vjdarr/Downloads/sitemap.xml",
 		"/Users/vjdarr/Google Drive/J/Infonavit/Jorge/Textos/01_Agradecimientos",
@@ -377,75 +625,18 @@
 		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/search.py",
 		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/filtro_lcs.py",
 		"/C/Users/Jorge/Documents/GitHub/tesis-caja/filtering/LCS.py",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/duster.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/clio.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/kangoo.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/fluence.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/logan.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/koleos.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/sandero.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/safrane.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/twizy.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/stepway.php",
-		"/C/Users/Jorge/Google Drive/internet en mexico.txt",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-promociones.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-autopromo.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/m_1_1_1.png",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/empresas.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/banner1.jpg",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-servcont.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-empresas.php",
-		"/C/Users/Jorge/Desktop/empresas.php",
-		"/C/Users/Jorge/Desktop/page-empresas.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/page-descubre.php",
-		"/C/Users/Jorge/Desktop/page-descubre.php",
-		"/C/Users/Jorge/Desktop/internet en mexico.txt",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/MensajeAgradecimientoCitaDeServicio.php",
-		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/includes/header.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gama.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/gama.xml",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/versiones.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/write.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/single.php",
-		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Depuración/filtro1.py",
-		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Steps.txt",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/wp-config.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-gracias.php",
-		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/servicio.php",
-		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/contacto.php",
-		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/blog.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/index.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/single.php",
-		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/index.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page-blog.php",
-		"/C/Users/Jorge/AppData/Local/Temp/Temp1_clean-start-master.zip/clean-start-master/index.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sidebar.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/header.php",
-		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/scss/_fonts.scss",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/page.php",
-		"/C/Users/Jorge/Documents/GitHub/rp-responsive/dev/prod/promociones.php",
-		"/C/Users/Jorge/Documents/GitHub/RP/dev/prod/contacto.php",
-		"/C/Users/Jorge/Desktop/renault/page-promociones.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/fluence.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/stepway.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/sandero.php",
-		"/C/Users/Jorge/Desktop/stepway.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/web.config",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/wp-config.php",
-		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-2/phpinfo.php",
-		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Recuperación - TAGS/01 Uber_25May-7Jun.csv",
-		"/C/Users/Jorge/Google Drive/MADIC/Tesis/Eventos/Uber/Preparación/Base/06 Uber_23Sep-15Oct.csv",
-		"/C/Users/Jorge/Desktop/wp-config.php"
+		"/C/Users/Jorge/AppData/Local/Temp/fz3temp-1/duster.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
 		"height": 138.0,
 		"where_history":
 		[
+			"<current file>",
 			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
 			"<current file>",
 			"C:\\Users\\Jorge\\Documents\\GitHub\\rp-responsive\\dev\\scss",
@@ -458,134 +649,133 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"/changefreq>",
-			"title",
-			"diseno_que_seduce",
-			"sldtxt",
-			"jpg",
-			"/exterior_y_equipamiento/equipamiento",
-			"b>",
-			"b",
-			"exterior",
-			"span",
-			"/conocelo/",
-			"1-2",
-			"/conocelo/",
-			"posts",
-			"letter",
-			"line",
-			"line-",
-			"dynamic",
-			"sidebar",
-			"contacto",
-			"modal",
-			"la_ficha",
-			"Overlay",
-			"banner_temps",
-			"menu",
-			"while",
+			"links.append(enlaceActual)",
+			"indegree",
+			"\"source\"",
+			"        ",
+			"\"inDegree\"",
+			"links.appen",
 			"links",
-			"banner_links",
-			"bottom",
-			"slstxt",
-			"<h3>",
-			"<br><br><h3>",
-			"<h3>",
-			"<br><br><h3>",
-			"<h3>",
-			"<br><br><h3>",
-			"<h3>",
-			"<br><h3>",
-			"<h3>",
-			"<br><br>",
-			"<h3>",
-			"rines y ves",
-			"desempe",
-			"sldtxt",
-			"> div",
-			"data-slidetext=\"",
-			"slider.currSlideId",
-			"texto",
-			"slider.currSlideId",
-			"-slidetext=\"0\"",
-			"data-slidetext=\"0\"",
-			"textslides",
-			"data-slidetext=\"0\"",
-			"<div>",
-			"<h3>",
-			"<div>",
-			"<h3>",
-			"Slider",
-			"slider",
-			"data('royalSlider');",
-			").data('royalSlider');",
-			"slider =",
-			"jQuery('#slid",
-			"jQuery(\"#slid",
-			"jQuery('.slider",
-			"$",
-			":\n				loadSlide(",
-			"loadSlide",
-			"Slider",
-			"slider",
-			"slider.destroy();",
-			":\n				loadSlide(",
-			"descubre-renault",
-			".servicio-cont",
-			".menu-serv",
-			".mosaic",
-			"servicio-cont",
-			".servicio-cont",
-			"\">",
-			"value=\"",
-			"\" \"",
-			"’",
-			"‘",
-			"defaultvalue",
-			"val = ",
-			"\" \"",
-			"$",
-			"’",
-			"‘",
-			"slider_autopromo",
-			"slider_promociones",
-			"slider_home",
-			"rsdefault",
-			"<td",
-			"<td style=\"width: 5%;\"></td>\n<td style=\"width: 5%;\"></td>",
-			" style=\"width: 25%;\"",
-			"style=\"width: 25%;\"",
-			"<td style=\"width: 25%; border-bottom: 1px solid #ccc;\"></td>\n<td style=\"width: 25%; border-bottom: 1px solid #ccc;\"></td>",
-			"border-bottom: 1px solid #ccc;\"",
-			"<td",
-			"table",
-			"style=\"\"",
-			"style=\" ",
-			"td style=\"width: ",
-			"td style=\"width:",
-			"style=\"width: ",
-			"td style=\"width: 25%",
-			"<td style=\"width: 5%;\"></td>\n<td style=\"width: 5%;\"></td>",
-			"promociones",
-			"1",
-			"safe",
-			"1-",
-			", ",
-			"slider2",
-			"1",
-			".-",
-			"label*",
-			"*",
-			"</label>*",
-			"&nbsp;<span>*</span>",
-			"<span>*</span>",
-			"zona de carga",
-			"auto",
-			"</a></l",
-			"<a href=\"#\">",
-			"</a></l",
-			"<a href=\"#\">",
-			"</a></l"
+			"preprocesa",
+			"\"screen_name\":",
+			"\"inDegree\"",
+			"\"nodes\"",
+			"\"links\"",
+			"\"handler\"",
+			"\"text\":",
+			"\"screen_name\":",
+			"time",
+			"c:/wamp64/www",
+			"allow ",
+			"deny",
+			"all",
+			"/\">",
+			"fileLoaded",
+			"handle",
+			"pokemon",
+			"echo",
+			"\"text\": ",
+			"minutero",
+			"\"text\": ",
+			"while (time",
+			"while ",
+			"# Recuperación de conversación sobre este tweet:\n                        if getConversation(toUser, toUserStId, api) == 'newKeyNeeded':\n                            claveActualIndex = keySwitch(claveActualIndex)  # Genera un nuevo índice de clave\n                            api = tweepy.API(conexion(claveActualIndex))  # Conexión usando nueva clave",
+			"getConversation",
+			"dir",
+			"milenio",
+			"lower()",
+			"jsondTweet['in_reply_to_screen_name']",
+			"jsondTweet",
+			"jsondTweet['user']['screen_name']",
+			"jsondTweet",
+			"screen_name",
+			"handler",
+			"archivoViz",
+			"\"text\":",
+			"\"inDegree\":",
+			"archivoTweets",
+			"with open(archivoTweets, 'w') as f:",
+			"clasificados",
+			"links",
+			"clasificados",
+			"clasfdUsr",
+			"publics",
+			"clasificados",
+			"handlersAlmacenados",
+			"handlersList",
+			"handlersAlmacenados",
+			"'rt'",
+			"\"text\": ",
+			"destina_meta['handler",
+			"clasificaEsto",
+			"clasificaesto",
+			"userMeta['description']",
+			"laDescripcion",
+			"item",
+			"clasifica",
+			"\"screen_name\":",
+			"reclistado",
+			"transform",
+			"textNormalization",
+			"emisorDesc",
+			"\"description\": ",
+			"\"source\": ",
+			"\"handler\": ",
+			"emisor_meta",
+			"alasbutacas",
+			"destin_meta",
+			"recovereDescription",
+			"userMeta",
+			"recovereDescription",
+			"recuperaDescripcion",
+			"print destina_meta['handler']",
+			"getConversation",
+			"descriptionRecovered",
+			"nombUsuario",
+			"treatedText",
+			"api.",
+			"Api.",
+			"api.",
+			"RECUPERADESCR",
+			"RECUPERAD",
+			"RECUPERA",
+			"print ",
+			"user_mentions",
+			"787401827012579328",
+			"787401827012579328L",
+			"787401827012579328",
+			"787401827012579328L",
+			"description",
+			"emisorDesc",
+			"emisor_meta",
+			"print ",
+			"tweetStatus",
+			"\"location\": \"empty\", ",
+			"\"text\": ",
+			"\"handler\"",
+			"Sonia88FA",
+			"asta2005",
+			"Xerbeil11111",
+			"Raul_tifeo",
+			"emisorName",
+			"emisor_meta['handler']",
+			"Estefanyortega0",
+			"DiegoBlancoCaro",
+			"\"text\": \"RT @aleex_mcmahon: #FelizSabado #felizcumpleaños campeón @soyMartinMazza @Bufibears @luccas___luccas @LavaderoMunecas @Gaynonimus25 😙🎉🎂😙😚😘…\", ",
+			"stiglitz20091",
+			"\"handler\":",
+			"text",
+			"dumps",
+			"text",
+			".encode('UTF-8')",
+			"meta_text",
+			"print ",
+			"print",
+			"handlersAlmacenados",
+			"\"id\":",
+			"item",
+			"idsAlmacenadas",
+			"emisorDesc"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -593,6 +783,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"u",
+			"o",
+			"i",
+			"e",
+			"a",
 			"&Uacute;",
 			"&Oacute;",
 			"&Iacute;",
@@ -699,7 +894,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 154.0,
+	"side_bar_width": 278.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
