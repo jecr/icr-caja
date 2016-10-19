@@ -3,9 +3,10 @@
 <head>
 	<title>Administrador de proyectos</title>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="util/style.css">
 </head>
 <body>
-
+<div class="main-div">
 <form action="" method="get">
 	<p>
 		<label for="query">Query:</label>
@@ -44,11 +45,18 @@ function loaDoc() {
 	});	
 }
 </script>
+
 <?php
 }
+?>
 
+<span class="proyect">
+	Proyectos almacenados
+</span>
+
+<?php
 $files = scandir('.');
-echo '<table border="1px">';
+echo '<table>';
 	foreach ($files as $value) {
 		if (strpos($value, '.') > 0){
 			$cosa = explode('.', $value);
@@ -70,8 +78,8 @@ echo '<table border="1px">';
 		}
 	}
 echo "</table>";
-
 ?>
 
+</div>
 </body>
 </html>

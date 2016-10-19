@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #444;
+	font-family: 'Helvetica', sans-serif;
+	color: #444;
+}
+
+.main-div {
+	width: 450px;
+	margin: 0 auto;
+	background: #eee;
+	box-sizing: border-box;
+	padding: 15px 30px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+
+	label {
+		display: block;
+	}
+
+	input:not([type="submit"]) {
+    	box-sizing: border-box;
+    	width: 100%;
+    }
+
+    input[type="submit"] {
+    	margin: 0 auto;
+    	display: block;
+    	width: 97px;
+    	box-sizing: border-box;
+    	text-align: center;
+    	background: 
+    }
+
+    .proyect {
+    	margin: 25px 0 10px 0;
+    	display: block;
+    	text-align: center;
+    	background: white;
+    	border-radius: 5px;
+    	box-sizing: border-box;
+    	padding: 5px 4px;
+    }
+
+    table {
+    	width: 100%;
+
+    }
+
+    tr:nth-child(odd) {
+       background-color: #7844ad;
+       color: white;
+    }
+
+    td {
+    	box-sizing: border-box;
+    	padding: 5px 7px;
+    	border-radius: 5px;
+    }
+
+    a {
+    	color: inherit;
+    	width: 100%;
+    	display: block;
+    	text-align: center;    	
+    }
