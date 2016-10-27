@@ -16,6 +16,8 @@ WAMP (Windows) o MAMP (Mac):
 	Nota: NO descargar o ejecutar MAMP PRO (Al instalar MAMP se instala por default un acceso a MAMP PRO, ignorar)
 	https://www.mamp.info/en/
 
+=============================================
+
 1. Ejecución de recupera.py:
 	python recupera.py [términos_de_búsqueda] [nombre_de_proyecto]
 	Nota 1: Los términos de búsqueda aceptan operadores AND y OR.
