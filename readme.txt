@@ -23,7 +23,9 @@ WAMP (Windows) o MAMP (Mac):
 =============================================
 
 1. Ejecución de recupera.py:
-	python recupera.py [términos_de_búsqueda] [nombre_de_proyecto]
+	python recupera.py [términos_de_búsqueda] [nombre_de_proyecto] [url_raíz]
+	Nota 0: La url raíz se compone de localhost:[puerto_de_wamp_mamp][ruta_a_la_raíz_donde_se_ecnuentra_icr-caja], ejemplo: "localhost:8888/Documentos/GitHub"
+	Si el directorio al que apunta MAMP es GitHub, la raíz sería "localhost:8888"
 	Nota 1: Los términos de búsqueda aceptan operadores AND y OR.
 	Nota 2: Si la cadena de términos incluye espacios, es necesario agruparla entre comillas ""
 	Nota 3: Los términos agrupados mediante operadores deben estar agrupados entre comillas "", si se incluyen muchos grupos de términos, es necesario escapar las comillas ""\Ejemplo de grupo"\ OR termino"

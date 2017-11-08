@@ -8,6 +8,7 @@ import sys
 from textblob.classifiers import NaiveBayesClassifier
 import time
 import tweepy
+import webbrowser
 
 # =======================================
 # ====== CLASIFICACIÓN DE USUARIOS ======
@@ -326,11 +327,11 @@ def locSimilarity(thisLocation):
                     end = 1
 
                     while comp.find(needle) > -1:
-                        end += 1;
+                        end += 1
 
                         if len(coincide) < len(needle):
                             coincide = needle
-                            
+
                         desfase = 0
                         needle = ''
                         for item in range(start,start + end):
@@ -460,7 +461,24 @@ api = tweepy.API(conexion(claveActualIndex))  # Conexión usando nueva clave
 # Selección de aplicación para recuperación
 search_query = sys.argv[1]  # Término(s) de búsqueda
 projectTweets = sys.argv[2]  # Nombre del proyecto
+urlRoot = sys.argv[3]  # URL raíz del proyecto
 # minutero = sys.argv[3] # Tiempo de ejecuci1n = 1
+
+if not os.path.isfile(projectTweets + '.prj'):
+    currentFile = open(projectTweets + '.prj', 'w')
+
+    # Escribe las líneas, luego cierra el archivo
+    currentFile.write(search_query + '\n' + projectTweets)
+    currentFile.close()  # Cierra el archivo tras la escritura
+    
+    # Abre el navegador en el administrador de proyectos
+    print '\nArchivo de control creado: ' + search_query + '.prj'
+    print '\nAbriendo listado de proyectos...'
+    webbrowser.open( urlRoot + '/icr-caja/backend/' )
+else:
+    # Abre el navegador en el administrador de proyectos
+    print '\nAbriendo listado de proyectos...'
+    webbrowser.open( urlRoot + '/icr-caja/backend/' )
 
 # Comprueba la existencia del directorio
 if not os.path.exists(projectTweets):
