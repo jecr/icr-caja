@@ -3,12 +3,13 @@ Proceso para la generación de la visualización de un evento:
 Requisitos:
 Instalar mediante terminal los siguientes
 
-Python 2.7 ^
+Python 2.7 ^ (incluído de fábrica en MacOS, en windows descargar e instalar)
 Tweepy
 	Instalación: easy_install tweepy
 NLTK
 	easy_install nltk
-Textblob corpora
+Textblob
+	pip install -U textblob
 	python -m textblob.download_corpora
 	Nota: al parecer la ejecución web requiere de la instalación del corpus de nltk, para esto, es necesario acceder a install.php, el script se ejecutará y habrá un resúmen del log en install.log, si no es solicitada esta librería, hacer caso omiso de esta nota
 WAMP (Windows) o MAMP (Mac):
