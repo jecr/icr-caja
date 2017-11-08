@@ -4,6 +4,9 @@ Requisitos:
 Instalar mediante terminal los siguientes ( si la instalación de alguno falla por restricción de permisos, ejecutarlos con sudo )
 
 Python 2.7 ^ (incluído de fábrica en MacOS, en windows descargar e instalar)
+PIP
+	En caso de error "No module named pip"
+	easy_install pip
 Tweepy
 	Instalación: easy_install tweepy
 NLTK
