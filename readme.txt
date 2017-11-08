@@ -1,7 +1,7 @@
 Proceso para la generación de la visualización de un evento:
 
 Requisitos:
-Instalar mediante terminal los siguientes
+Instalar mediante terminal los siguientes ( si la instalación de alguno falla por restricción de permisos, ejecutarlos con sudo )
 
 Python 2.7 ^ (incluído de fábrica en MacOS, en windows descargar e instalar)
 Tweepy
@@ -14,7 +14,7 @@ Textblob
 	Nota: al parecer la ejecución web requiere de la instalación del corpus de nltk, para esto, es necesario acceder a install.php, el script se ejecutará y habrá un resúmen del log en install.log, si no es solicitada esta librería, hacer caso omiso de esta nota
 WAMP (Windows) o MAMP (Mac):
 	http://www.wampserver.com/en/
-	Nota: NO descargar o ejecutar MAMP PRO (Al instalar MAMP se instala por default un acceso a MAMP PRO, ignorar)
+	Nota: NO instalar o ejecutar MAMP PRO (Al instalar MAMP elegir instalación personalizada, desmarcar el MAMP PRO)
 	https://www.mamp.info/en/
 
 =============================================
