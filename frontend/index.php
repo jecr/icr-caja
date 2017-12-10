@@ -13,7 +13,7 @@ echo 'var proyecto = "' . $projectName . '";';
 <!DOCTYPE html>
 <html lang="es">
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title>Grafo <?php echo strtoupper($_GET['project']); ?></title>
         
