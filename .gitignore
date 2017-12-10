@@ -2,10 +2,4 @@
 *.DS_Store
 *.log
 *.prj
-
-frontend/data/oaxaca_Jun252016_filtro_preprocesado.json
-frontend/data/oaxaca_Jun192016_filtro_preprocesado.json
-frontend/data/oaxaca_Jun192016_filtro_preprocesado.json
-backend/trump/trump_network_vis.json
-backend/trump/trump_Oct-17-2016.json
-backend/trump/trump_Oct-17-2016.txt
+*.vscode
