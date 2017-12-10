@@ -525,8 +525,8 @@ currentFile = ''
 usrHandlers = {}
 currentUsrFile = ''
 
-tweetsAlmacenados = {}
-tweetsAlmacenar = []
+continuable_file = {}
+tweets_to_save = []
 usrsAlmacenar = []
 idsAlmacenadas = {}
 handlersAlmacenados = {}
@@ -535,7 +535,7 @@ handlersAlmacenados = {}
 # ====== LISTAS, DICTS, DEFINITIOS ======
 # =======================================
 
-links = []
+links_to_preprocess = []
 
 # Fuentes de publicación confiables, para la reducción de bots
 trustedSources = {}
@@ -761,27 +761,45 @@ while (time.time() - execStart) < (60 * 1):
                             print("El archivo " + archivoTweets + " ya existe")
                             print("Continue flag set to: " + str(execStatus['continue']))
                             fOpen = open(archivoTweets, 'r')
-                            fTweets = json.load(fOpen)
+                            loaded_tweets_file = json.load(fOpen)
                             
                             # Recorre y almacena tweets en dict
                             print("Recuperando datos de archivo preexistente...")
-                            count_tweets = 0
                             count_users = 0
-                            for item in fTweets['tweets']:
+                            for item in loaded_tweets_file['tweets']:
                                 idsAlmacenadas[item['id']] = ''
                                 item['text'] = item['text'].encode('UTF-8')
-                                tweetsAlmacenar.append(item)
-                                count_tweets = count_tweets + 1
-                            
+                                tweets_to_save.append(item)
+
+                                # Genera metadatos de enlace
+                                enlaceActual = {}
+                                enlaceActual['source'] = item['screen_name']
+                                # RETWEET
+                                if meta_tweet['int_type'] == 'retweet':
+                                    item_handler = jsondTweet['retweeted_status']['user']['screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
+                                # REPLY
+                                if meta_tweet['int_type'] == 'reply':
+                                    item_handler = jsondTweet['in_reply_to_screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
+                                # MENTION
+                                if meta_tweet['int_type'] == 'mention':
+                                    for item in jsondTweet['entities']['user_mentions']:
+                                        item_handler = item['screen_name'].lower().encode('UTF-8').replace('\n', '').replace('\r', '')
+                                enlaceActual['target'] = item_handler
+                                enlaceActual['interaction'] = item['int_type']
+                                enlaceActual['retuits'] = 1
+
+                                # Añade la interacción a la lista de enlaces
+                                links_to_preprocess.append(enlaceActual)
+
                             # Recorre y almacena handlers en dict
-                            for item in fTweets['users']:
+                            for item in loaded_tweets_file['users']:
                                 handlersAlmacenados[item['handler'].encode('UTF-8')] = item['class']
                                 item['description'] = item['description'].encode('UTF-8')
                                 item['location'] = item['location'].encode('UTF-8')
                                 usrsAlmacenar.append(item)
                                 count_users = count_users + 1
                             
-                            print("Tweets pre-existentes: " + str(count_tweets))
+                            print(str(len(links_to_preprocess)) + " interacciones recuperadas de archivos existentes.")
                             print("Usuarios pre-existentes:" + str(count_users))
                             execStatus['continue'] = 1
                             print("Continue flag set to: " + str(execStatus['continue']))
@@ -792,11 +810,11 @@ while (time.time() - execStart) < (60 * 1):
 
                     # Verificación de pre-existencia (TWT)
                     if not meta_tweet['id'] in idsAlmacenadas:
-                        tweetsAlmacenar.append(meta_tweet)
+                        tweets_to_save.append(meta_tweet)
                         idsAlmacenadas[meta_tweet['id']] = ''
                         
                         # Genera el arreglo a exportar
-                        tweetsAlmacenados['tweets'] = tweetsAlmacenar
+                        continuable_file['tweets'] = tweets_to_save
 
                         # Genera metadatos de enlace
                         enlaceActual = {}
@@ -806,7 +824,7 @@ while (time.time() - execStart) < (60 * 1):
                         enlaceActual['retuits'] = 1
                             
                         # Añade la interacción a la lista de enlaces
-                        links.append(enlaceActual)
+                        links_to_preprocess.append(enlaceActual)
                         for item in handlersList:
 
                             # Verificación de pre-existencia (USR)
@@ -815,14 +833,14 @@ while (time.time() - execStart) < (60 * 1):
                                 handlersAlmacenados[item['handler']] = item['class']
                                 
                                 # Genera el arreglo a exportar
-                                tweetsAlmacenados['users'] = usrsAlmacenar
+                                continuable_file['users'] = usrsAlmacenar
                         with open(archivoTweets, 'w') as f:
-                            json.dump(tweetsAlmacenados, f, indent=4, ensure_ascii=False)
+                            json.dump(continuable_file, f, indent=4, ensure_ascii=False)
                         
-                        print("Tamaño de archivo de visualización: " + str(len(links)))
+                        print("Tamaño de archivo de visualización: " + str(len(links_to_preprocess)))
                         # Archivo para visualización:
                         with open(archivoViz, 'w') as f:
-                            json.dump(preprocesa(links), f, indent=4, ensure_ascii=False)
+                            json.dump(preprocesa(links_to_preprocess), f, indent=4, ensure_ascii=False)
 
                     # DEPRECATED (BUT STILL USEFUL !!!!!!!!!!!!!!!!!!!1)
                     if not os.path.isfile(dirVerif):
