@@ -3,3 +3,4 @@
 *.log
 *.prj
 *.vscode
+*.pyc
