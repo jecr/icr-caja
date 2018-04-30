@@ -165,7 +165,7 @@ acentos = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u',
 
 execStart = time.time()
 
-while (time.time() - execStart) < (60 * 1):
+while (time.time() - execStart) < (60 * 999999999):
     try:
         for page in tweepy.Cursor(api.search, q=search_query, lang="es", count=100, include_entities=True).pages(100):
             # Procesamiento de tweets
